@@ -1,14 +1,14 @@
 [main]
     separator = "-"
-    description = "Hinode is a clean documentation and blog theme for your Hugo site based on Bootstrap 5."
-    enableLanguageSelectionStorage = false
+    description = "Biblical Science Accessibility"
+    enableLanguageSelectionStorage = true
     canonifyAssetsURLs = false
-    endorse = true
+    endorse = false
     footerBelowFold = false
     loading = "lazy"
     breakpoint = "md"
     [main.colorMode]
-        enabled = true
+        enabled = false
         modes = ["light", "dark"]
     [main.internalLinks]
         validate = true
@@ -19,22 +19,10 @@
     [main.build]
         transpiler = "libsass"
 
-
 [debugging]
     showJS = false
     showSCSS = false
     purgeHTMLComments = false
-
-[docs]
-    github = "https://github.com/gethinode/hinode"
-    release = "https://github.com/gethinode/hinode/releases/tag/"
-    checkVersion = false
-
-[home]
-    # sections = ["posts"]
-    fullCover = false
-    centerHeadline = false
-    style = ""
 
 [navigation]
     anchor = true
@@ -48,7 +36,7 @@
     size = "md"
     [navigation.search]
         enabled = true
-        modal = false
+        modal = true
 
 [messages]
     placement = "bottom-right"
@@ -90,24 +78,6 @@
     weight = 50
     clipboard = true
 
-# toml-docs-start sections
-# [sections]
-#     [sections.posts]
-#         title = "Posts"
-#         sort = "date"
-#         reverse = true
-#         nested = true
-#         cols = 3
-#         color = ""
-#         padding = "0"
-#         header = "full"
-#         footer = "none"
-#         orientation = "stacked"
-#         style = "border-0 card-zoom"
-#         homepage = 3
-#         separator = true
-# toml-docs-end sections
-
 [favicon]
     logo = "img/favicon.png"
     sizes = [16, 32, 48]
@@ -132,29 +102,10 @@
 
 [schema]
     type = "Organization"
-    name = "Hinode"
+    name = "Project Didymus"
     locale = "en-US"
-    # twitter = "https://twitter.com/gethinode"
-    # linkedIn = ""
-    github = "https://github.com/gethinode/hinode"
-    section = "blog"
-    [schema.author]
-        name = "Mark Dumay"
-        # twitter = "https://twitter.com/markdumay"
-        linkedin = "https://www.linkedin.com/in/markdumay/"
-        github = "https://github.com/markdumay"
-    [schema.logo]
-        url = "img/logo512x512.png"
-        width = 512
-        height = 512
-    [schema.image]
-        url = "img/logo1280x640.png"
-        width = 1280
-        height = 640
+    github = "https://github.com/ProjectDidymus"
 
 [opengraph]
     images = ["logo.png"]
     locale = "en_US"
-
-[links]
-    hinode = "https://gethinode.com"

@@ -1,0 +1,148 @@
+[[main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "Over"
+  pageRef = "/about/"
+  weight = 20
+
+[[main]]
+  name = "Het project"
+  pageRef = "/about/project/"
+  parent = "Over"
+  weight = 1
+
+[[main]]
+  name = "De naam Didymus"
+  pageRef = "/about/name"
+  parent = "Over"
+  weight = 2
+
+[[main]]
+  name = "Projectleden"
+  pageRef = "/about/members"
+  parent = "Over"
+  weight = 3
+
+[[main]]
+  name = "Ervaringen"
+  pageRef = "/testimonials/"
+  weight = 30
+
+[[main]]
+  name = "Studenten"
+  pageRef = "/testimonials/students/"
+  parent = "Ervaringen"
+  weight = 1
+
+[[main]]
+  name = "Docenten"
+  pageRef = "/testimonials/teachers/"
+  parent = "Ervaringen"
+  weight = 2
+
+[[main]]
+  name = "Theologen"
+  pageRef = "/testimonials/theologians/"
+  parent = "Ervaringen"
+  weight = 3
+
+[[main]]
+  name = "Aangepaste content"
+  pageRef = "/content/"
+  weight = 40
+
+[[main]]
+  name = "Stichting Dedicon"
+  pageRef = "/content/dedicon/"
+  parent = "Aangepaste content"
+  weight = 1
+
+[[main]]
+  name = "E-books"
+  pageRef = "/content/ebooks/"
+  parent = "Aangepaste content"
+  weight = 2
+
+[[main]]
+  name = "Digitaliseren"
+  pageRef = "/content/digitization/"
+  parent = "Aangepaste content"
+  weight = 3
+
+[[main]]
+  name = "Grondtalen"
+  pageRef = "/languages/"
+  weight = 50
+
+[[main]]
+  name = "Grieks"
+  pageRef = "/languages/greek/"
+  parent = "Grondtalen"
+  weight = 1
+
+[[main]]
+  name = "Hebreeuws"
+  pageRef = "/languages/hebrew/"
+  parent = "Grondtalen"
+  weight = 2
+
+[[main]]
+  name = "Aramees"
+  pageRef = "/languages/aramaic/"
+  parent = "Grondtalen"
+  weight = 3
+
+[[main]]
+  name = "Tekstkritiek"
+  pageRef = "/languages/criticism/"
+  parent = "Grondtalen"
+  weight = 4
+
+[[main]]
+  name = "Software & apparatuur"
+  pageRef = "/software/"
+  weight = 60
+
+[[main]]
+  name = "Zotero"
+  pageRef = "/software/zotero/"
+  parent = "Software & apparatuur"
+  weight = 1
+
+[[main]]
+  name = "Logos"
+  pageRef = "/software/logos/"
+  parent = "Software & apparatuur"
+  weight = 2
+
+[[main]]
+  name = "Schermleessoftware"
+  pageRef = "/software/screenreaders/"
+  parent = "Software & apparatuur"
+  weight = 3
+
+[[main]]
+  name = "Toetsenborden"
+  pageRef = "/software/keyboards/"
+  parent = "Software & apparatuur"
+  weight = 4
+
+[[main]]
+  name = "Brailleleesregels"
+  pageRef = "/software/braille-displays/"
+  parent = "Software & apparatuur"
+  weight = 5
+
+[[main]]
+  name = "Duxbury"
+  pageRef = "/software/duxbury/"
+  parent = "Software & apparatuur"
+  weight = 6
+
+[[main]]
+  name = "Contact"
+  pageRef = "/contact/"
+  weight = 70

@@ -1,7 +1,7 @@
 {
-  "name": "@gethinode/template",
-  "version": "0.15.0",
-  "description": "Hinode is a clean blog theme for Hugo, an open-source static site generator",
+  "name": "@projectdidymus/didymus.info",
+  "version": "0.1.0",
+  "description": "Biblical Science Accessibility",
   "main": "index.js",
   "scripts": {
     "prestart": "npm run -s mod:vendor",
@@ -31,14 +31,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gethinode/template.git"
+    "url": "git+https://github.com/ProjectDidymus/didymus.info.git"
   },
-  "author": "",
+  "author": "Project Didymus",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gethinode/hinode/issues"
-  },
-  "homepage": "https://gethinode.com",
+  "homepage": "https://didymus.info",
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^7.0.2",
     "autoprefixer": "^10.4.22",

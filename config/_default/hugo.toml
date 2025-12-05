@@ -1,9 +1,8 @@
-title = "Hinode"
-copyright = "Copyright © 2022 - 2025 Mark Dumay."
+title = "Project Didymus"
 enableGitInfo = true
 
 # additional settings
-baseURL = "https://example.com/"
+baseURL = "https://didymus.info/"
 canonifyURLs = false
 enableEmoji = true
 enableRobotsTXT = true
@@ -16,8 +15,8 @@ ignoreErrors = ["error-remote-getjson"]
 
 timeout = "180s"
 
-languageCode = "en-us"
-defaultContentLanguage = "en"
+languageCode = "nl-nl"
+defaultContentLanguage = "nl"
 defaultContentLanguageInSubdir = false
 
 [outputFormats]
@@ -56,7 +55,7 @@ home = ["HTML", "RSS", "REDIR", "netlify", "server"]
 
 [build]
   writeStats = true
-  
+
 [taxonomies]
   tag = 'tags'
 
@@ -128,5 +127,5 @@ home = ["HTML", "RSS", "REDIR", "netlify", "server"]
 [segments]
   [segments.headers]
     [[segments.headers.includes]]
-       kind = '{home}'
-       output = '{netlify,server}'
+      kind = '{home}'
+      output = '{netlify,server}'
