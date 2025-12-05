@@ -40,7 +40,6 @@ jobs:
     - name: Create Pull Request
       uses: gethinode/create-pull-request@v7
       with:
-        token: ${{ secrets.HUGO_MOD_PR }}
         commit-message: 'fix: update Hugo module dependencies'
         committer: GitHub <noreply@github.com>
         branch: hugo-mod-dependencies
