@@ -7,17 +7,17 @@
     Access-Control-Allow-Origin = '*'
     Content-Security-Policy = """
         base-uri 'self'; \
-        connect-src 'self' *.analytics.google.com *.google.com *.google-analytics.com *.googletagmanager.com; \
+        connect-src 'self' *.cookieyes.com cdn-cookieyes.com *.google-analytics.com *.analytics.google.com *.googletagmanager.com; \
         default-src 'none'; \
-        font-src 'self' fonts.gstatic.com data:; \
+        font-src 'self' fonts.gstatic.com; \
         form-action 'self'; \
-        frame-src *.googletagmanager.com player.cloudinary.com www.youtube-nocookie.com www.youtube.com player.vimeo.com; \
-        img-src 'self' *.google-analytics.com *.googletagmanager.com googletagmanager.com ssl.gstatic.com www.gstatic.com data: *.imgix.net *.imagekit.io *.cloudinary.com i.ytimg.com tile.openstreetmap.org i.vimeocdn.com; \
+        frame-src player.cloudinary.com www.youtube-nocookie.com www.youtube.com player.vimeo.com; \
+        img-src 'self' cdn-cookieyes.com *.google-analytics.com *.googletagmanager.com data: *.imgix.net *.imagekit.io *.cloudinary.com i.ytimg.com tile.openstreetmap.org i.vimeocdn.com; \
         manifest-src 'self'; \
         media-src 'self'; \
         object-src 'none'; \
-        script-src 'self' *.google-analytics.com *.googletagmanager.com *.analytics.google.com googletagmanager.com tagmanager.google.com player.vimeo.com; \
-        style-src 'self' googletagmanager.com tagmanager.google.com fonts.googleapis.com www.youtube.com 'unsafe-inline'; \
+        script-src 'self' cdn-cookieyes.com *.google-analytics.com *.googletagmanager.com player.vimeo.com; \
+        style-src 'self' 'unsafe-inline' www.youtube.com; \
         """
     Permissions-Policy = 'geolocation=(), midi=(), sync-xhr=(), microphone=(), camera=(), magnetometer=(), gyroscope=(), fullscreen=(), payment=() '
     Referrer-Policy = 'strict-origin'
@@ -28,9 +28,9 @@
     cache-control = 'max-age=0, no-cache, no-store, must-revalidate '
 
 [[redirects]]
-  from = '/en/*'
+  from = '/fr/*'
   status = 404
-  to = '/en/404.html'
+  to = '/fr/404.html'
 
 [[redirects]]
   from = '/nl/*'
@@ -38,7 +38,12 @@
   to = '/nl/404.html'
 
 [[redirects]]
+  from = '/en/*'
+  status = 404
+  to = '/en/404.html'
+
+[[redirects]]
   from = '/*'
   status = 404
-  to = '/nl/404.html'
+  to = '/en/404.html'
 

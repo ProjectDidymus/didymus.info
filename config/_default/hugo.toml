@@ -104,9 +104,6 @@ home = ["HTML", "RSS", "REDIR", "netlify", "server"]
     source = "assets"
     target = "assets"
   [[module.mounts]]
-    source = "content"
-    target = "content"
-  [[module.mounts]]
     source = "data"
     target = "data"
   [[module.mounts]]
