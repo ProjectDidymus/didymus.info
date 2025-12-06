@@ -1,0 +1,23 @@
+backend:
+  name: git-gateway
+  branch: beta
+i18n:
+  structure: multiple_folders
+  locales: [nl, en]
+  default_locale: nl
+media_folder: static/img
+public_folder: /img
+collections:
+  - name: main_content
+    label: Content
+    folder: content
+    i18n: true
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        i18n: true
+      - label: Body
+        name: body
+        widget: markdown
+
