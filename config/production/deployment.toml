@@ -4,10 +4,6 @@
 # will be uploaded first, in the listed order.
 order = [".webp$", ".jpg$", ".gif$"]
 
-[targets]
-name = "hinode"
-URL = "azblob://$web"
-
 [[matchers]]
 # Cache static assets for 1 year.
 pattern = "^.+\\.(js|css|svg|ttf)$"

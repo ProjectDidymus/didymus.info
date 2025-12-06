@@ -3,7 +3,7 @@
     description = "Biblical Science Accessibility"
     enableLanguageSelectionStorage = true
     canonifyAssetsURLs = false
-    endorse = false
+    endorse = true
     footerBelowFold = false
     loading = "lazy"
     breakpoint = "md"
@@ -26,7 +26,6 @@
 
 [navigation]
     anchor = true
-    logo = "/img/logo_icon.svg"
     color = "body"
     fixed = true
     offset = "5.5rem"
