@@ -1,12 +1,14 @@
-[nl]
-  contentDir = "content"
-  languageName = "Nederlands"
-  languageCode = "nl-nl"
-  weight = 1
-  [nl.params.opengraph]
-  locale = "nl_NL"
 [en]
-  contentDir = "content/en"
-  languageName = "English"
-  languageCode = "en-us"
-  weight = 2
+languageName = "English"
+contentDir = "content/en"
+weight = 2
+[en.params.head]
+tagline = "Biblical Science Accessibility"
+[nl]
+languageName = "Nederlands"
+contentDir = "content/nl"
+weight = 1
+[nl.params.opengraph]
+locale = "nl_NL"
+[nl.params.head]
+tagline = "Bijbelwetenschappen en toegankelijkheid"
