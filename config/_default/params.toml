@@ -1,7 +1,7 @@
 [main]
-    separator = "-"
+    separator = "|"
     description = "Biblical Science Accessibility"
-    enableLanguageSelectionStorage = true
+    enableLanguageSelectionStorage = false
     canonifyAssetsURLs = false
     endorse = true
     footerBelowFold = false
@@ -10,12 +10,13 @@
     [main.colorMode]
         enabled = false
         modes = ["light", "dark"]
+        toggle = true
     [main.internalLinks]
         validate = true
-        pretty = false
+        pretty = true
     [main.externalLinks]
-        cue = false
-        tab = false
+        cue = true
+        tab = true
     [main.build]
         transpiler = "libsass"
 

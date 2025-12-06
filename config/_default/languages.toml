@@ -1,11 +1,12 @@
 [nl]
+  contentDir = "content"
   languageName = "Nederlands"
-  contentDir = "content/nl"
+  languageCode = "nl-nl"
   weight = 1
-[nl.params.opengraph]
+  [nl.params.opengraph]
   locale = "nl_NL"
-
 [en]
-  languageName = "English"
   contentDir = "content/en"
+  languageName = "English"
+  languageCode = "en-us"
   weight = 2
