@@ -5,14 +5,20 @@
 
 [context]
   [context.branch-deploy]
-    command = 'npm run build:example -- -b $DEPLOY_PRIME_URL'
+    command = 'npm run build -- -b $DEPLOY_PRIME_URL'
 
   [context.deploy-preview]
-    command = 'npm run build:example -- -b $DEPLOY_PRIME_URL'
+    command = 'npm run build -- -b $DEPLOY_PRIME_URL'
+
+  [context.next]
+    command = 'npm run build'
+
+    [context.next.environment]
+      HUGO_ENV = 'next'
 
 [dev]
   autoLaunch = false
-  command = 'npm run start:example'
+  command = 'npm run start'
   framework = '#custom'
   port = 8888
   publish = 'public'
