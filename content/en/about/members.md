@@ -1,9 +1,10 @@
 ---
 title: "Project Members"
+date: 2025-12-01
 menu:
   main:
     parent: "About"
-weight: 3
+    weight: 3
 ---
 
 The following members are currently involved with Project Didymus.

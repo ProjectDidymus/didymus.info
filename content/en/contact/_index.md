@@ -2,20 +2,19 @@
 title: "Contact"
 menu:
   main:
-weight: 70
+    weight: 70
 content_blocks:
   - _bookshop_name: hero
     breadcrumb: true
     heading:
       title: Contact
       content: |-
-        Deze website is nog volop in ontwikkeling. Suggesties en aanvullingen zijn van harte welkom.
+        This website is still under active development. Suggestions and additions are very welcome.
     links:
-      - title: Stuur ons een e-mail
+      - title: Send us an email
         url: mailto:info@didymus.info
         icon: fas envelope
     orientation: horizontal
     cover: true
     justify: center
 ---
-

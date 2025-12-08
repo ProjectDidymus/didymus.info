@@ -63,21 +63,24 @@ home = ["HTML", "RSS", "REDIR", "netlify", "server"]
 
 [privacy]
   [privacy.vimeo]
-    disabled = false
+    disabled = true
     simple = true
 
   [privacy.x]
-    disabled = false
+    disabled = true
     enableDNT = true
     simple = true
 
   [privacy.instagram]
-    disabled = false
+    disabled = true
     simple = true
 
   [privacy.youtube]
-    disabled = false
+    disabled = true
     privacyEnhanced = true
+  [privacy.googleanalytics]
+    disabled = true
+    respectDoNotTrack = true
 
 [services]
   [services.instagram]
@@ -96,7 +99,7 @@ home = ["HTML", "RSS", "REDIR", "netlify", "server"]
 [module]
   [module.hugoVersion]
     extended = true
-    min = "0.136.3"
+    min = "0.146.0"
   [[module.mounts]]
     source = "archetypes"
     target = "archetypes"

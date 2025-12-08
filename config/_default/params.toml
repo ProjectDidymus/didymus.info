@@ -109,3 +109,6 @@
 [opengraph]
     images = ["logo.png"]
     locale = "en_US"
+
+[modules.bookshop]
+  integration = "optional"

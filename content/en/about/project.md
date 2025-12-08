@@ -1,9 +1,10 @@
 ---
 title: "Project"
+date: 2025-12-01
 menu:
   main:
     parent: "About"
-weight: 1
+    weight: 1
 ---
 
 Within the academic world, theology holds a modest place. Even more modest is the number of students and theologians with visual impairments. As a result, it is not always easy for blind or visually impaired theologians or students to find their way across the obstacles they may encounter. Consider questions such as: How do I learn the biblical languages if I depend on Braille and/or speech synthesis? How do I gain access to a well-organized and accessible theological library? What accommodations are needed if I want to study theology? How can I serve my congregation, the church and world with the talents and insights I have been given?
