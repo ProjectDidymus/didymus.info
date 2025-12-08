@@ -1,8 +1,7 @@
 ---
-title: "Het Project"
+title: "Project"
 menu:
   main:
-    name: "Het project"
     parent: "Over"
 weight: 1
 ---
