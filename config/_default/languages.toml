@@ -7,7 +7,7 @@ locale = "nl_NL"
 [nl.params.head]
 tagline = "Bijbelwetenschappen en toegankelijkheid"
 [nl.params.footer]
-license = "Gelicenseerd onder <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>Creative Commons (CC BY-NC-SA 4.0)</a> | <a href='https://www.netlify.com'>Uitgerold en gehost door Netlify</a>"
+license = "Gelicenseerd onder <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>Creative Commons (CC BY-NC-SA 4.0)</a> | Uitgerold en gehost door <a href='https://www.netlify.com'>Netlify</a>"
 [en]
 languageName = "English"
 contentDir = "content/en"
@@ -15,4 +15,4 @@ weight = 2
 [en.params.head]
 tagline = "Biblical Science Accessibility"
 [en.params.footer]
-license = "Licensed under <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>Creative Commons (CC BY-NC-SA 4.0)</a> | <a href='https://www.netlify.com'>Uitgerold en gehost door Netlify</a>"
+license = "Licensed under <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>Creative Commons (CC BY-NC-SA 4.0)</a> | Deployed and hosted by <a href='https://www.netlify.com'>Netlify</a>"
