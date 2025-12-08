@@ -34,7 +34,7 @@
     "url": "git+https://github.com/ProjectDidymus/didymus.info.git"
   },
   "author": "Project Didymus",
-  "license": "MIT",
+  "license": "CC-BY-NC-SA-4.0",
   "homepage": "https://didymus.info",
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^7.0.2",
