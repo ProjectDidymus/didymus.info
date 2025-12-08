@@ -1,5 +1,5 @@
 [main]
-    separator = "|"
+    separator = "-"
     description = "Biblical Science Accessibility"
     enableLanguageSelectionStorage = false
     canonifyAssetsURLs = false
