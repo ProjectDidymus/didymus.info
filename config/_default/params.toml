@@ -35,7 +35,7 @@
     sidebar = true
     size = "md"
     [navigation.search]
-        enabled = false
+        enabled = true
         modal = true
 
 [messages]
