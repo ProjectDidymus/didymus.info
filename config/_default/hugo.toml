@@ -16,7 +16,7 @@ ignoreErrors = ["error-remote-getjson"]
 timeout = "180s"
 
 defaultContentLanguage = "nl"
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 
 [outputFormats]
   [outputFormats.server]
