@@ -1,5 +1,6 @@
 ---
 title: "Project Members"
+description: "A list of the current Project Didymus project members"
 date: 2025-12-01
 menu:
   main:

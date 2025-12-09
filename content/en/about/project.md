@@ -1,5 +1,6 @@
 ---
 title: "Project"
+description: An overview of the vision, aims and current activities of Project Didymus.
 date: 2025-12-01
 menu:
   main:

@@ -1,5 +1,6 @@
 ---
 title: "Projectleden"
+description: Een overzicht van de huidige betrokkenen bij Project Didymus.
 date: 2025-12-01
 menu:
   main:

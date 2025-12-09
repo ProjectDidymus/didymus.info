@@ -1,5 +1,6 @@
 ---
 title: "Project"
+description: Een overzicht van de visie, doelstellingen en huidige activiteiten van Project Didymus.
 date: 2025-12-01
 menu:
   main:
