@@ -1,14 +1,12 @@
 ---
 title: "Project Members"
-description: "A list of the current Project Didymus project members"
+description: "These members are currently involved with Project Didymus."
 date: 2025-12-01
 menu:
   main:
     parent: "About"
     weight: 3
 ---
-
-The following members are currently involved with Project Didymus.
 
 ## **Stieneke Roelofsen** (b. 1998)
 

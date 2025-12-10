@@ -1,14 +1,12 @@
 ---
 title: "Projectleden"
-description: Een overzicht van de huidige betrokkenen bij Project Didymus.
+description: Deze personen zijn momenteel betrokken bij Project Didymus.
 date: 2025-12-01
 menu:
   main:
     parent: "Over"
 weight: 3
 ---
-
-De volgende personen zijn momenteel betrokken bij Project Didymus.
 
 ## **Stieneke Roelofsen** (geb. 1998)
 

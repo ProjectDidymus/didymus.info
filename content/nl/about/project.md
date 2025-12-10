@@ -1,6 +1,6 @@
 ---
 title: "Project"
-description: Een overzicht van de visie, doelstellingen en huidige activiteiten van Project Didymus.
+description: Deze pagina biedt een overzicht van de visie, doelstellingen en huidige activiteiten van Project Didymus.
 date: 2025-12-01
 menu:
   main:
@@ -8,9 +8,13 @@ menu:
 weight: 1
 ---
 
+## Aanleiding
+
 Binnen de academische wereld neemt de theologie een bescheiden plaats in. Nog kleiner is het aantal studenten en theologen met een visuele beperking. Daardoor is het voor blinde of slechtziende theologen en studenten niet altijd eenvoudig om hun weg te vinden langs de obstakels die ze tegen kunnen komen. Denk bijvoorbeeld aan vragen zoals: Hoe kan ik de bijbelse talen leren als ik afhankelijk ben van braille en/of spraakuitvoer? Hoe krijg ik toegang tot een goed georganiseerde en toegankelijke theologische bibliotheek? Welke voorzieningen zijn nodig als ik theologie wil studeren? Hoe kan ik mijn gemeente, de kerk en de wereld dienen met de talenten en inzichten die ik ontvangen heb?
 
 Bewustwording van de toegankelijkheidsuitdagingen bij het studeren van theologie door studenten met een visuele beperking is ontstaan uit gesprekken tussen studenten en docenten/hoogleraren. Hoewel de steeds grotere beschikbaarheid van digitale bronnen tegenwoordig nieuwe mogelijkheden biedt om materiaal toegankelijk te maken, Is veel literatuur en software nog steeds niet toegankelijk en niet ontworpen om te voldoen aan de specifieke behoeften van slechtzienden en blinden.
+
+## Samenwerking
 
 Project Didymus is een Nederlandse samenwerking die zich inzet voor de verbetering van de toegankelijkheid van bijbelwetenschappen en theologie voor mensen met een visuele beperking. Het project is bedoeld als een ontmoetingsplek waar antwoorden gegeven worden op bovenstaande vragen en toekomstige vragen op dit gebied. We willen een ruimte bieden voor en door theologen met een visuele beperking, maar ook voor anderen die zich verwant voelen met deze groep.
 
