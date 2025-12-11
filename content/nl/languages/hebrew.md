@@ -1,5 +1,6 @@
 ---
 title: "Hebreeuws"
+draft: true
 description: Op deze pagina is meer te vinden over het Hebreeuws, met name over Hebreeuws Braille.
 tags:
 - Braille
