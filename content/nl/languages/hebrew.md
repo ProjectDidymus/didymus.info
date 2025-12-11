@@ -63,7 +63,7 @@ In de tabellen hieronder wordt een overzicht gegeven van de Hebreeuwse tekens me
 | תּ        | Tav met dageesj    | ⠳       | 1256   |
 | ת         | Tav zonder dageesj | ⠹       | 1456   |
 
-### Vokalen
+### Vocalen
 
 | Karakter | Naam | Unicode Braille | Braillepunten |
 | ---------: | ---------------- | ------- | ------ |
