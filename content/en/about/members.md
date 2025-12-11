@@ -18,7 +18,7 @@ Maarten studied theology at the Christian University of Applied Sciences in Ede.
 
 ## Leonard de Ruiter MSc
 
-Leonard (b. 1993) studied Child and Adolescent Psychology at Leiden University. He is currently studying at the Theological University of Apeldoorn. Due to a strong affinity with IT, he has developed as a software developer and is employed part time at [SEVENP](https://sevenp.nl/). He has contributed to various open-source projects, such as [the NVDA screen reader](https://www.nvaccess.org/) and the [liblouis](https://liblouis.io/) braille translator. In addition, he has contributed to an [eight-dot braille standard](https://braille-autoriteit.org/standaarden/achtpuntsbraille/) for the Dutch language area within the Dutch Braille Authority.
+Leonard (b. 1993) has been blind from birth and studied Child and Adolescent Psychology at Leiden University. He is currently studying at the Theological University of Apeldoorn out of his desire to become a minister within the Dutch Christian Reformed Churches. Due to a strong affinity with IT, he has developed as a software developer and is employed part time at [SEVENP](https://sevenp.nl/). He has contributed to various open-source projects, such as [the NVDA screen reader](https://www.nvaccess.org/) and the [liblouis](https://liblouis.io/) braille translator. In addition, he has contributed to an [eight-dot braille standard](https://braille-autoriteit.org/standaarden/achtpuntsbraille/) for the Dutch language area within the Dutch Braille Authority.
 
 ## Dr. Marco Rotman
 
