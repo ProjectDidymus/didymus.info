@@ -13,18 +13,21 @@ weight: 2
 ## Hoe werkt Hebreeuws Braille?
 
 Hebreeuws is een uitdagende taal om te leren.
-Denk alleen maar aan de noodzaak van het van rechts naar links lezen en de afwezigheid van klinkers in de taal zelf.
+Denk alleen maar aan de tekstrichting: een hebreeuwse tekst lees je van rechts naar links.
+Ook zijn in het oorspronkelijke Hebreeuws de klinkertekens afwezig.
 De klinkertekens die in de Hebreeuwse Bijbel gebruikt worden, zijn latere toevoegingen en worden als puntjes of streepjes boven, onder of naast de medeklinkers geschreven.
 Dit werkt dus op een heel andere manier dan in talen als Grieks en Nederlands, waar de meeste of alle klinkers op hetzelfde niveau gerangschikt zijn als de medeklinkers en dus gewoon tussen de medeklinkers in staan.
 
 Wanneer je wilt doorgronden hoe Hebreeuws Braille werkt, helpt het om het te zien als een vorm van transliteratie.
 In getranslitereerd Hebreeuws wordt ieder teken gekoppeld aan een teken uit ons alfabet met een vergelijkbare klank.
 Zo wordt de letter zajin (ז) weergegeven als een *z*.
-Wanneer je de Hebreeuwse letternaam volledig uitschrijft (*זַיִן*), wordt dit volgens het SBL Handbook of Style getranslitereerd als *zayin*.
+Wanneer je de Hebreeuwse letternaam volledig uitschrijft (*זַיִן*), wordt dit volgens het SBL Handbook of Style getranslitereerd als *Zayin*.
 Ook de vocaaltekens krijgen dus hun eigen karakter.
 
 In Braille werkt dit grotendeels hetzelfde.
-Sterker nog, in Hebreeuws Braille is de letter *zajin* identiek aan de letter *z* in het Nederlandse brailleschrift.
+Sterker nog, in Hebreeuws Braille is de letter *Zajin* identiek aan de letter *z* in het Nederlandse brailleschrift.
+Enkele andere karakters wijken wel af: de *Jod* wordt in Braille bijvoorbeeld weergegeven met het teken behorend bij de letter *j*, terwijl SBL de *y* hanteert.
+De braillelezer leest het Hebreeuws van links naar rechts.
 
 ## Braillestandaard
 
@@ -38,8 +41,10 @@ In de tabellen hieronder wordt een overzicht gegeven van de Hebreeuwse tekens me
 | א         | Alef             | ⠁       | 1      |
 | בּ        | Beet met dageesj    | ⠃       | 12     |
 | ב         | Beet zonder dageesj | ⠧       | 1236   |
-| ג         | Gimel             | ⠛       | 1245   |
-| ד         | Dalet             | ⠙       | 145    |
+| גּ         | Gimel met Dageesj | ⠐⠛       | 5-1245   |
+| ג         | Gimel zonder dageesj  | ⠛       | 1245   |
+| דּ         | Dalet met dageesj            | ⠐⠙       | 5-145    |
+| ד         | Dalet zonder dageesj            | ⠙       | 145    |
 | ה         | Hee                | ⠓       | 125    |
 | ו         | Wav               | ⠺       | 2456   |
 | ז         | Zajin            | ⠵       | 1356   |
@@ -63,6 +68,10 @@ In de tabellen hieronder wordt een overzicht gegeven van de Hebreeuwse tekens me
 | תּ        | Tav met dageesj    | ⠳       | 1256   |
 | ת         | Tav zonder dageesj | ⠹       | 1456   |
 
+> [!NOTE]
+> De *Beet*, *Kaf*, *Pee* en *Tav* krijgen in Braille een apart teken wanneer zij een Dageesj bevatten.
+> Bij andere consonanten (inclusief de *Gimel* en *Dalet*) wordt de *Dageesj* (braillepunt 5, ⠐) vóór de consonant geplaatst.
+
 ### Vocalen
 
 | Karakter | Naam | Unicode Braille | Braillepunten |
@@ -80,7 +89,7 @@ In de tabellen hieronder wordt een overzicht gegeven van de Hebreeuwse tekens me
 | ֻ         | Kiboets         | ⠥       | 136    |
 
 > [!NOTE]
-> Wanneer de letters *wav* en *jod* fungeren als leesmoeders in plaats van als medeklinkers, worden ze tot één enkele braille-cel samengetrokken.
+> Wanneer de letters *Wav* en *Jod* fungeren als leesmoeders in plaats van als medeklinkers, worden ze tot één enkele braille-cel samengetrokken.
 
 | Karakter | Naam        | Unicode Braille | Braillepunten |
 | -------- | ----------- | --------------- | ------------- |
@@ -90,7 +99,7 @@ In de tabellen hieronder wordt een overzicht gegeven van de Hebreeuwse tekens me
 | וּ       | Sjoeroek    | ⠬               | 346           |
 
 > [!NOTE]
-> De letters *alef* en *hee* worden niet samengetrokken als ze als leesmoeders worden gebruikt.
+> De letters *Alef* en *Hee* worden niet samengetrokken als ze als leesmoeders worden gebruikt.
 
 ### Overige tekens
 
