@@ -36,37 +36,37 @@ In de tabellen hieronder wordt een overzicht gegeven van de Hebreeuwse tekens me
 
 ### Consonanten
 
-| Karakter | Naam | Unicode Braille | Braillepunten |
-| ---------: | ----------------- | ------- | ------ |
-| א         | Alef             | ⠁       | 1      |
-| בּ        | Beet met dageesj    | ⠃       | 12     |
-| ב         | Beet zonder dageesj | ⠧       | 1236   |
-| גּ         | Gimel met Dageesj | ⠐⠛       | 5-1245   |
-| ג         | Gimel zonder dageesj  | ⠛       | 1245   |
-| דּ         | Dalet met dageesj            | ⠐⠙       | 5-145    |
-| ד         | Dalet zonder dageesj            | ⠙       | 145    |
-| ה         | Hee                | ⠓       | 125    |
-| ו         | Wav               | ⠺       | 2456   |
-| ז         | Zajin            | ⠵       | 1356   |
-| ח         | Chet              | ⠭       | 1346   |
-| ט         | Tet               | ⠞       | 2345   |
-| י         | Jod               | ⠚       | 245    |
-| כּ        | Kaf met dageesj    | ⠅       | 13     |
-| כ         | Kaf zonder dageesj | ⠡       | 16     |
-| ל         | Lamed             | ⠇       | 123    |
-| מ         | Mem               | ⠍       | 134    |
-| נ         | Noen               | ⠝       | 1345   |
-| ס         | Samech            | ⠎       | 234    |
-| ע         | Ajin              | ⠫       | 1246   |
-| פּ        | Pee met dageesj    | ⠏       | 1234   |
-| פ         | Pee zonder dageesj | ⠋       | 124    |
-| צ         | Tsadee            | ⠮       | 2346   |
-| ק         | Kof              | ⠟       | 12345  |
-| ר         | Reesj             | ⠗       | 1235   |
-| שׂ        | Sien              | ⠱       | 156    |
-| שׁ        | Sjien             | ⠩       | 146    |
-| תּ        | Tav met dageesj    | ⠳       | 1256   |
-| ת         | Tav zonder dageesj | ⠹       | 1456   |
+| Karakter | Naam | Unicode Braille | ASCII Braille | Braillepunten |
+| ---------: | ----------------- | ------- | ----- | ------ |
+| א         | Alef             | ⠁       | a     | 1      |
+| בּ        | Beet met dageesj    | ⠃       | b     | 12     |
+| ב         | Beet zonder dageesj | ⠧       | v     | 1236   |
+| גּ         | Gimel met Dageesj | ⠐⠛       | "g    | 5-1245   |
+| ג         | Gimel zonder dageesj  | ⠛       | g     | 1245   |
+| דּ         | Dalet met dageesj            | ⠐⠙       | "d    | 5-145    |
+| ד         | Dalet zonder dageesj            | ⠙       | d     | 145    |
+| ה         | Hee                | ⠓       | h     | 125    |
+| ו         | Wav               | ⠺       | w     | 2456   |
+| ז         | Zajin            | ⠵       | z     | 1356   |
+| ח         | Chet              | ⠭       | x     | 1346   |
+| ט         | Tet               | ⠞       | t     | 2345   |
+| י         | Jod               | ⠚       | j     | 245    |
+| כּ        | Kaf met dageesj    | ⠅       | k     | 13     |
+| כ         | Kaf zonder dageesj | ⠡       | *     | 16     |
+| ל         | Lamed             | ⠇       | l     | 123    |
+| מ         | Mem               | ⠍       | m     | 134    |
+| נ         | Noen               | ⠝       | n     | 1345   |
+| ס         | Samech            | ⠎       | s     | 234    |
+| ע         | Ajin              | ⠫       | $     | 1246   |
+| פּ        | Pee met dageesj    | ⠏       | p     | 1234   |
+| פ         | Pee zonder dageesj | ⠋       | f     | 124    |
+| צ         | Tsadee            | ⠮       | !     | 2346   |
+| ק         | Kof              | ⠟       | q     | 12345  |
+| ר         | Reesj             | ⠗       | r     | 1235   |
+| שׂ        | Sien              | ⠱       | :     | 156    |
+| שׁ        | Sjien             | ⠩       | %     | 146    |
+| תּ        | Tav met dageesj    | ⠳       |  \     | 1256   |
+| ת         | Tav zonder dageesj | ⠹       | ?     | 1456   |
 
 > [!NOTE]
 > De *Beet*, *Kaf*, *Pee* en *Tav* krijgen in Braille een apart teken wanneer zij een Dageesj bevatten.
@@ -74,83 +74,83 @@ In de tabellen hieronder wordt een overzicht gegeven van de Hebreeuwse tekens me
 
 ### Vocalen
 
-| Karakter | Naam | Unicode Braille | Braillepunten |
-| ---------: | ---------------- | ------- | ------ |
-| ְ         | Sjwa            | ⠄       | 3      |
-| ִ         | Chirek          | ⠊       | 24     |
-| ֵ         | Tseree           | ⠌       | 34     |
-| ֶ         | Segol            | ⠑       | 15     |
-| ֱ         | Chateef segol     | ⠢       | 26     |
-| ַ         | Patach           | ⠉       | 14     |
-| ֲ         | Chateef patach    | ⠒       | 25     |
-| ָ         | Kamets           | ⠣       | 126    |
-| ֳ         | Chateef kamets    | ⠜       | 345    |
-| ֹ         | Cholem           | ⠕       | 135    |
-| ֻ         | Kiboets         | ⠥       | 136    |
+| Karakter | Naam | Unicode Braille | ASCII Braille | Braillepunten |
+| ---------: | ---------------- | ------- | ----- | ------ |
+| ְ         | Sjwa            | ⠄       | '     | 3      |
+| ִ         | Chirek          | ⠊       | i     | 24     |
+| ֵ         | Tseree           | ⠌       | /     | 34     |
+| ֶ         | Segol            | ⠑       | e     | 15     |
+| ֱ         | Chateef segol     | ⠢       | 5     | 26     |
+| ַ         | Patach           | ⠉       | c     | 14     |
+| ֲ         | Chateef patach    | ⠒       | 3     | 25     |
+| ָ         | Kamets           | ⠣       | <     | 126    |
+| ֳ         | Chateef kamets    | ⠜       | >     | 345    |
+| ֹ         | Cholem           | ⠕       | o     | 135    |
+| ֻ         | Kiboets         | ⠥       | u     | 136    |
 
 > [!NOTE]
 > Wanneer de letters *Wav* en *Jod* fungeren als leesmoeders in plaats van als medeklinkers, worden ze tot één enkele braille-cel samengetrokken.
 
-| Karakter | Naam        | Unicode Braille | Braillepunten |
-| -------- | ----------- | --------------- | ------------- |
-| יִ       | Chierek-jod | ⠔               | 35            |
-| יֵ       | Tseree-jod  | ⠼               | 3456          |
-| וֹ       | Cholem-wav  | ⠪               | 246           |
-| וּ       | Sjoeroek    | ⠬               | 346           |
+| Karakter | Naam        | Unicode Braille | ASCII Braille | Braillepunten |
+| -------- | ----------- | --------------- | ----- | ------------- |
+| יִ       | Chierek-jod | ⠔               | 9     | 35            |
+| יֵ       | Tseree-jod  | ⠼               | #     | 3456          |
+| וֹ       | Cholem-wav  | ⠪               | [     | 246           |
+| וּ       | Sjoeroek    | ⠬               | +     | 346           |
 
 > [!NOTE]
 > De letters *Alef* en *Hee* worden niet samengetrokken als ze als leesmoeders worden gebruikt.
 
 ### Overige tekens
 
-| Karakter | Naam        | Unicode Braille | Braillepunten |
-| --------: | ----------- | --------------- | ------------- |
-| ּ       | Dageesj      | ⠐               | 5             |
-| הּ       | Hee met mapiek      | ⠓⠘               | 125-45            |
-| ־        | Makeef      | ⠤               | 36            |
-| ׀        | Paassek      | ⠸               | 456           |
+| Karakter | Naam        | Unicode Braille | ASCII Braille | Braillepunten |
+| --------: | ----------- | --------------- | ----- | ------------- |
+| ּ       | Dageesj      | ⠐               | "     | 5             |
+| הּ       | Hee met mapiek      | ⠓⠘               | h~    | 125-45            |
+| ־        | Makeef      | ⠤               | -     | 36            |
+| ׀        | Paassek      | ⠸               | _     | 456           |
 
 > [!NOTE]
 > De onderstaande drie scheidende accenten worden in Braille aan het einde van het woord geplaatst waarin ze voorkomen.
 
-| Karakter | Naam        | Unicode Braille | Braillepunten |
-| --------: | ----------- | --------------- | ------------- |
-| ֔       | Zakeef katon | ⠂               | 2             |
-| ֑       | Atnach    | ⠆               | 23            |
-| ׃        | Sof pasoek  | ⠲               | 256           |
+| Karakter | Naam        | Unicode Braille | ASCII Braille | Braillepunten |
+| --------: | ----------- | --------------- | ----- | ------------- |
+| ֔       | Zakeef katon | ⠂               | 1     | 2             |
+| ֑       | Atnach    | ⠆               | 2     | 23            |
+| ׃        | Sof pasoek  | ⠲               | 4     | 256           |
 
 ### Woorden
 
 Als voorbeeld volgen hieronder een aantal Hebreeuwse woorden met hun representatie in Braille.
 De woorden zijn zo gekozen dat ze zo veel mogelijk braillecombinaties laten zien.
 
-| Woord     | Braille  |
-| --------: | -------- |
-| אָב       | ⠁⠣⠧      |
-| אֱמֶת | ⠁⠢⠍⠑⠹ |
-| בַּת      | ⠃⠉⠹      |
-| גָּדוֹל   | ⠐⠛⠣⠙⠪⠇   |
-| דֶּרֶךְ  | ⠐⠙⠑⠗⠑⠅⠄  |
-| הֵיכָל    | ⠓⠼⠡⠣⠇    |
-| וְ        | ⠺⠄       |
-| זֶרַע    | ⠵⠑⠗⠉⠫    |
-| חֲכָם | ⠭⠒⠡⠣⠍ |
-| חֳלִי | ⠭⠜⠇⠔
-| חֵמָה    | ⠭⠌⠍⠣⠓    |
-| טוֹב      | ⠞⠪⠧      |
-| יָמִין | ⠚⠣⠍⠔⠝ |
-| כֹּהֵן    | ⠅⠕⠓⠌⠝    |
-| כָּבוֹד   | ⠅⠣⠧⠪⠙    |
-| לֶחֶם    | ⠇⠑⠭⠑⠍    |
-| מִזְבֵּחַ | ⠍⠊⠵⠄⠃⠌⠭⠉ |
-| מְלֻכָּה | ⠍⠄⠇⠥⠅⠣⠓ |
-| נְחֹשֶׁת | ⠝⠄⠭⠕⠩⠑⠹  |
-| סֵפֶר    | ⠎⠌⠋⠑⠗    |
-| צָפוֹן    | ⠮⠣⠋⠪⠝    |
-| קָדוֹשׁ   | ⠟⠣⠙⠪⠩    |
-| רוּחַ | ⠗⠬⠭⠉ |
-| שַׁבָּת   | ⠩⠉⠃⠣⠹    |
-| שָׂדֶה    | ⠱⠣⠙⠑⠓    |
+| Woord     | Unicode Braille  | ASCII Braille |
+| --------: | -------- | ------------- |
+| אָב       | ⠁⠣⠧      | a<v          |
+| אֱמֶת | ⠁⠢⠍⠑⠹ | a5me?         |
+| בַּת      | ⠃⠉⠹      | bc?           |
+| גָּדוֹל   | ⠐⠛⠣⠙⠪⠇   | "g<d[l       |
+| דֶּרֶךְ  | ⠐⠙⠑⠗⠑⠅⠄  | "derek'       |
+| הֵיכָל    | ⠓⠼⠡⠣⠇    | h#/<l        |
+| וְ        | ⠺⠄       | w'            |
+| זֶרַע    | ⠵⠑⠗⠉⠫    | zerc$         |
+| חֲכָם | ⠭⠒⠡⠣⠍ | x3*<m        |
+| חֳלִי | ⠭⠜⠇⠔   | x>l9          |
+| חֵמָה    | ⠭⠌⠍⠣⠓    | x/m<h        |
+| טוֹב      | ⠞⠪⠧      | t[v           |
+| יָמִין | ⠚⠣⠍⠔⠝ | j<m9n        |
+| כֹּהֵן    | ⠅⠕⠓⠌⠝    | koh/n         |
+| כָּבוֹד   | ⠅⠣⠧⠪⠙    | k<v[d        |
+| לֶחֶם    | ⠇⠑⠭⠑⠍    | lexem         |
+| מִזְבֵּחַ | ⠍⠊⠵⠄⠃⠌⠭⠉ | miz'b/xc      |
+| מְלֻכָּה | ⠍⠄⠇⠥⠅⠣⠓ | m'luk<h      |
+| נְחֹשֶׁת | ⠝⠄⠭⠕⠩⠑⠹  | n'xo%e?       |
+| סֵפֶר    | ⠎⠌⠋⠑⠗    | s/fer         |
+| צָפוֹן    | ⠮⠣⠋⠪⠝    | !<f[n        |
+| קָדוֹשׁ   | ⠟⠣⠙⠪⠩    | q<d[%        |
+| רוּחַ | ⠗⠬⠭⠉ | r+xc          |
+| שַׁבָּת   | ⠩⠉⠃⠣⠹    | %cb<?        |
+| שָׂדֶה    | ⠱⠣⠙⠑⠓    | :<deh        |
 
 ## Geschiedenis
 
