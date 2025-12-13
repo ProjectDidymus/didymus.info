@@ -6,7 +6,7 @@ tags:
 date: 2025-12-01
 menu:
   main:
-    parent: "Grondtalen"
+  parent: "Grondtalen"
 weight: 1
 ---
 
@@ -50,81 +50,79 @@ Meer informatie over het *composed-systeem* is te vinden op [de website van Eric
 
 | Karakter | Naam | Unicode Braille | Braillepunten |
 | ------ | --------- | --------------- | ------ |
-| α      | Alfa      | ⠁               | 1      |
-| Α      | Hoofdletter Alfa      | ⠨⠁               | 46-1      |
-| β      | Bèta      | ⠃               | 12     |
-| γ      | Gamma     | ⠛               | 1245   |
-| δ      | Delta     | ⠙               | 145    |
-| ε      | Epsilon   | ⠑               | 15     |
-| ζ      | Dzèta      | ⠵               | 1356   |
-| η      | Èta       | ⠱               | 156    |
-| θ      | Thèta     | ⠹               | 1456   |
-| ι      | Iota      | ⠊               | 24     |
-| κ      | Kappa     | ⠅               | 13     |
-| λ      | Labda    | ⠇               | 123    |
-| μ      | Mu        | ⠍               | 134    |
-| ν      | Nu        | ⠝               | 1345   |
-| ξ      | Xi        | ⠭               | 1346   |
-| ο      | Omikron   | ⠕               | 135    |
-| π      | Pi        | ⠏               | 1234   |
-| ρ      | Rho       | ⠗               | 1235   |
-| σ / ς  | Sigma     | ⠎               | 234    |
-| τ      | Tau       | ⠞               | 2345   |
-| υ      | Upsilon   | ⠥               | 136    |
-| φ      | Fi       | ⠋               | 124    |
-| χ      | Chi       | ⠯               | 12346  |
-| ψ      | Psi       | ⠽               | 13456  |
-| ω      | Omega     | ⠺               | 2456   |
+| α | Alfa | ⠁ | 1 |
+| Α | Hoofdletter Alfa | ⠨⠁ | 46-1 |
+| β | Bèta | ⠃ | 12 |
+| γ | Gamma | ⠛ | 1245 |
+| δ | Delta | ⠙ | 145 |
+| ε | Epsilon | ⠑ | 15 |
+| ζ | Dzèta | ⠵ | 1356 |
+| η | Èta | ⠱ | 156 |
+| θ | Thèta | ⠹ | 1456 |
+| ι | Iota | ⠊ | 24 |
+| κ | Kappa | ⠅ | 13 |
+| λ | Labda | ⠇ | 123 |
+| μ | Mu | ⠍ | 134 |
+| ν | Nu | ⠝ | 1345 |
+| ξ | Xi | ⠭ | 1346 |
+| ο | Omikron | ⠕ | 135 |
+| π | Pi | ⠏ | 1234 |
+| ρ | Rho | ⠗ | 1235 |
+| σ / ς | Sigma | ⠎ | 234 |
+| τ | Tau | ⠞ | 2345 |
+| υ | Upsilon | ⠥ | 136 |
+| φ | Fi | ⠋ | 124 |
+| χ | Chi | ⠯ | 12346 |
+| ψ | Psi | ⠽ | 13456 |
+| ω | Omega | ⠺ | 2456 |
 
 ### Accenten, iota subscriptum en spiritus
 
 > [!NOTE]
 > Bij wijze van voorbeeld zijn alle tekens verbonden aan de *Alfa*.
 
-| Grieks | Naam                                      | Unicode Braille | Braillepunten           |
+| Grieks | Naam | Unicode Braille | Braillepunten |
 | ------ | ---------------------------------------------- | --------------- | ---------------- |
-| ά      | Acutus                                          | ⠈⠁              | 4-1            |
-| ὰ      | Gravis                                          | ⠠⠁              | 6-1            |
-| ᾶ      | Circumflexus                                     | ⠐⠁              | 5-1            |
-| ἀ      | Spiritus Lenis                                 | ⠴⠁              | 356-1          |
-| ἁ      | Spiritus Asper                                 | ⠓⠁              | 125-1          |
-| ἄ      | Spiritus Lenis + Acutus                         | ⠴⠈⠁             | 356-4-1      |
-| ἅ      | Spiritus Asper + Acutus                         | ⠓⠈⠁             | 125-4-1      |
-| ἂ      | Spiritus Lenis + Gravis                         | ⠴⠠⠁             | 356-6-1      |
-| ἃ      | Spiritus Asper + Gravis                         | ⠓⠠⠁             | 125-6-1      |
-| ᾀ      | Spiritus Lenis + Iota Subscriptum              | ⠴⠁⠔             | 356-1-35     |
-| ᾁ      | Spiritus Asper + Iota Subscriptum              | ⠓⠁⠔             | 125-1-35     |
-| ᾄ      | Spiritus Lenis + Acutus + Iota Subscriptum      | ⠴⠈⠁⠔            | 356-4-1-35 |
-| ᾅ      | Spiritus Asper + Acutus + Iota Subscriptum      | ⠓⠈⠁⠔            | 125-4-1-35 |
-| ᾂ      | Spiritus Lenis + Gravis + Iota Subscriptum      | ⠴⠠⠁⠔            | 356-6-1-35 |
-| ᾃ      | Spiritus Asper + Gravis + Iota Subscriptum      | ⠓⠠⠁⠔            | 125-6-1-35 |
-| ᾆ      | Spiritus Lenis + Circumflexus + Iota Subscriptum | ⠴⠐⠁⠔            | 356-5-1-35 |
-| ᾇ      | Spiritus Asper + Circumflexus + Iota Subscriptum | ⠓⠐⠁⠔            | 125-5-1-35 |
-| ᾶ      | Circumflexus + Iota Subscriptum                  | ⠐⠁⠔             | 5-1-35       |
+| ά | Acutus | ⠈⠁ | 4-1 |
+| ὰ | Gravis | ⠠⠁ | 6-1 |
+| ᾶ | Circumflexus | ⠐⠁ | 5-1 |
+| ἀ | Spiritus Lenis | ⠴⠁ | 356-1 |
+| ἁ | Spiritus Asper | ⠓⠁ | 125-1 |
+| ἄ | Lenis + Acutus | ⠴⠈⠁ | 356-4-1 |
+| ἅ | Asper + Acutus | ⠓⠈⠁ | 125-4-1 |
+| ἂ | Lenis + Gravis | ⠴⠠⠁ | 356-6-1 |
+| ἃ | Asper + Gravis | ⠓⠠⠁ | 125-6-1 |
+| ᾀ | Lenis + Iota Subscriptum | ⠴⠁⠔ | 356-1-35 |
+| ᾁ | Asper + Iota Subscriptum | ⠓⠁⠔ | 125-1-35 |
+| ᾄ | Lenis + Acutus + Iota Subscriptum | ⠴⠈⠁⠔ | 356-4-1-35 |
+| ᾅ | Asper + Acutus + Iota Subscriptum | ⠓⠈⠁⠔ | 125-4-1-35 |
+| ᾂ | Lenis + Gravis + Iota Subscriptum | ⠴⠠⠁⠔ | 356-6-1-35 |
+| ᾃ | Asper + Gravis + Iota Subscriptum | ⠓⠠⠁⠔ | 125-6-1-35 |
+| ᾆ | Lenis + Circumflexus + Iota Subscriptum | ⠴⠐⠁⠔ | 356-5-1-35 |
+| ᾇ | Asper + Circumflexus + Iota Subscriptum | ⠓⠐⠁⠔ | 125-5-1-35 |
 
 ### Woorden
 
 Als voorbeeld volgen hieronder een aantal Griekse woorden met hun representatie in Braille.
 De woorden zijn zo gekozen dat ze zo veel mogelijk braillecombinaties laten zien.
 
-| Woord    | Unicode Braille |
+| Woord | Unicode Braille |
 | -------- | --------------- |
-| ἀγάπη    | ⠴⠁⠛⠈⠁⠏⠱         |
-| ἀδελφός  | ⠴⠁⠙⠑⠇⠋⠈⠕⠎       |
-| ἄνθρωπος | ⠴⠈⠁⠝⠹⠗⠺⠏⠕⠎      |
-| γῆ       | ⠛⠐⠱             |
-| θεός     | ⠹⠑⠈⠕⠎           |
-| Χριστός  | ⠨⠯⠗⠊⠎⠞⠈⠕⠎       |
-| λογός    | ⠇⠕⠛⠈⠕⠎          |
-| νόμος    | ⠝⠈⠕⠍⠕⠎          |
-| οὐρανός  | ⠕⠴⠥⠗⠁⠝⠈⠕⠎       |
-| υἱός     | ⠓⠥⠓⠊⠈⠕⠎         |
-| ἄγγελος  | ⠴⠈⠁⠛⠛⠑⠇⠕⠎       |
-| ἁμαρτία  | ⠓⠁⠍⠁⠗⠞⠈⠊⠁       |
-| ἔργον    | ⠴⠈⠑⠗⠛⠕⠝         |
-| βασιλεία | ⠃⠁⠎⠊⠇⠑⠈⠊⠁       |
-| γραφή    | ⠛⠗⠁⠋⠈⠱          |
-| καρδία   | ⠅⠁⠗⠙⠈⠊⠁         |
-| προφήτης | ⠏⠗⠕⠋⠈⠱⠞⠱⠎       |
-| δοῦλος   | ⠙⠕⠐⠥⠇⠕⠎         |
-| πνεῦμα   | ⠏⠝⠑⠐⠥⠍⠁         |
+| ἀγάπη | ⠴⠁⠛⠈⠁⠏⠱ |
+| ἄγγελος | ⠴⠈⠁⠛⠛⠑⠇⠕⠎ |
+| ἀδελφός | ⠴⠁⠙⠑⠇⠋⠈⠕⠎ |
+| ἁμαρτία | ⠓⠁⠍⠁⠗⠞⠈⠊⠁ |
+| ἄνθρωπος | ⠴⠈⠁⠝⠹⠗⠺⠏⠕⠎ |
+| βασιλεία | ⠃⠁⠎⠊⠇⠑⠈⠊⠁ |
+| γραφή | ⠛⠗⠁⠋⠈⠱ |
+| δοῦλος | ⠙⠕⠐⠥⠇⠕⠎ |
+| ἔργον | ⠴⠈⠑⠗⠛⠕⠝ |
+| θεός | ⠹⠑⠈⠕⠎ |
+| καρδία | ⠅⠁⠗⠙⠈⠊⠁ |
+| λογός | ⠇⠕⠛⠈⠕⠎ |
+| νόμος | ⠝⠈⠕⠍⠕⠎ |
+| οὐρανός | ⠕⠴⠥⠗⠁⠝⠈⠕⠎ |
+| πνεῦμα | ⠏⠝⠑⠐⠥⠍⠁ |
+| προφήτης | ⠏⠗⠕⠋⠈⠱⠞⠱⠎ |
+| υἱός | ⠓⠥⠓⠊⠈⠕⠎ |
+| Χριστός | ⠨⠯⠗⠊⠎⠞⠈⠕⠎ |
