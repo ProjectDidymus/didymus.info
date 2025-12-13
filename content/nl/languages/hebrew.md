@@ -51,26 +51,29 @@ In de tabellen hieronder wordt een overzicht gegeven van de Hebreeuwse tekens me
 | ח         | Chet              | ⠭       | x     | 1346   |
 | ט         | Tet               | ⠞       | t     | 2345   |
 | י         | Jod               | ⠚       | j     | 245    |
-| כּ        | Kaf met dageesj    | ⠅       | k     | 13     |
-| כ         | Kaf zonder dageesj | ⠡       | *     | 16     |
+| כּ / ּךּ      | Kaf met dageesj    | ⠅       | k     | 13     |
+| כ / ך      | Kaf zonder dageesj | ⠡       | *     | 16     |
 | ל         | Lamed             | ⠇       | l     | 123    |
-| מ         | Mem               | ⠍       | m     | 134    |
-| נ         | Noen               | ⠝       | n     | 1345   |
+| מ / ם        | Mem               | ⠍       | m     | 134    |
+| נ / ן       | Noen               | ⠝       | n     | 1345   |
 | ס         | Samech            | ⠎       | s     | 234    |
 | ע         | Ajin              | ⠫       | $     | 1246   |
-| פּ        | Pee met dageesj    | ⠏       | p     | 1234   |
-| פ         | Pee zonder dageesj | ⠋       | f     | 124    |
-| צ         | Tsadee            | ⠮       | !     | 2346   |
+| פּ / ףּ       | Pee met dageesj    | ⠏       | p     | 1234   |
+| פ / ף        | Pee zonder dageesj | ⠋       | f     | 124    |
+| צ / ץ        | Tsadee            | ⠮       | !     | 2346   |
 | ק         | Kof              | ⠟       | q     | 12345  |
 | ר         | Reesj             | ⠗       | r     | 1235   |
 | שׂ        | Sien              | ⠱       | :     | 156    |
 | שׁ        | Sjien             | ⠩       | %     | 146    |
-| תּ        | Tav met dageesj    | ⠳       |  \     | 1256   |
+| תּ       | Tav met dageesj    | ⠳       |  \     | 1256   |
 | ת         | Tav zonder dageesj | ⠹       | ?     | 1456   |
 
 > [!NOTE]
 > De *Beet*, *Kaf*, *Pee* en *Tav* krijgen in Braille een apart teken wanneer zij een Dageesj bevatten.
 > Bij andere consonanten (inclusief de *Gimel* en *Dalet*) wordt de *Dageesj* (braillepunt 5, ⠐) vóór de consonant geplaatst.
+>
+> [!NOTE]
+> De sluitletters in het Hebreeuwse alfabet worden volgens de IHBC-standaard niet onderscheiden van de normale letters.
 
 ### Vocalen
 
