@@ -106,7 +106,7 @@ In de tabellen hieronder wordt een overzicht gegeven van de Hebreeuwse tekens me
 | Karakter | Naam        | Unicode Braille | ASCII Braille | Braillepunten |
 | --------: | ----------- | --------------- | ----- | ------------- |
 | ּ       | Dageesj      | ⠐               | "     | 5             |
-| הּ       | Hee met mapiek      | ⠓⠘               | h~    | 125-45            |
+| הּ       | Hee met mapiek      | ⠓⠘               | h^    | 125-45            |
 | ־        | Makeef      | ⠤               | -     | 36            |
 | ׀        | Paassek      | ⠸               | _     | 456           |
 
