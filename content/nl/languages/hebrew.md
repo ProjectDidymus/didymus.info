@@ -1,6 +1,6 @@
 ---
 title: "Hebreeuws"
-description: Op deze pagina is meer te vinden over het Hebreeuws, met name over Hebreeuws Braille.
+description: Op deze pagina is meer te vinden over het Hebreeuws, met name over Hebreeuws braille.
 tags:
 - Braille
 date: 2025-12-10
@@ -10,7 +10,7 @@ menu:
 weight: 2
 ---
 
-## Hoe werkt Hebreeuws Braille?
+## Hoe werkt Hebreeuws braille?
 
 Hebreeuws is een uitdagende taal om te leren.
 Denk alleen maar aan de tekstrichting: een hebreeuwse tekst lees je van rechts naar links.
@@ -18,21 +18,21 @@ Ook zijn in het oorspronkelijke Hebreeuws de klinkertekens afwezig.
 De klinkertekens die in de Hebreeuwse Bijbel gebruikt worden, zijn latere toevoegingen en worden als puntjes of streepjes boven, onder of naast de medeklinkers geschreven.
 Dit werkt dus op een heel andere manier dan in talen als Grieks en Nederlands, waar de meeste of alle klinkers op hetzelfde niveau gerangschikt zijn als de medeklinkers en dus gewoon tussen de medeklinkers in staan.
 
-Wanneer je wilt doorgronden hoe Hebreeuws Braille werkt, helpt het om het te zien als een vorm van transliteratie.
+Wanneer je wilt doorgronden hoe Hebreeuws braille werkt, helpt het om het te zien als een vorm van transliteratie.
 In getranslitereerd Hebreeuws wordt ieder teken gekoppeld aan een teken uit ons alfabet met een vergelijkbare klank.
 Zo wordt de letter zajin (ז) weergegeven als een *z*.
 Wanneer je de Hebreeuwse letternaam volledig uitschrijft (*זַיִן*), wordt dit volgens het SBL Handbook of Style getranslitereerd als *Zayin*.
 Ook de vocaaltekens krijgen dus hun eigen karakter.
 
-In Braille werkt dit grotendeels hetzelfde.
-Sterker nog, in Hebreeuws Braille is de letter *Zajin* identiek aan de letter *z* in het Nederlandse brailleschrift.
-Enkele andere karakters wijken wel af: de *Jod* wordt in Braille bijvoorbeeld weergegeven met het teken behorend bij de letter *j*, terwijl SBL de *y* hanteert.
+In braille werkt dit grotendeels hetzelfde.
+Sterker nog, in Hebreeuws braille is de letter *Zajin* identiek aan de letter *z* in het Nederlandse brailleschrift.
+Enkele andere karakters wijken wel af: de *Jod* wordt in braille bijvoorbeeld weergegeven met het teken behorend bij de letter *j*, terwijl SBL de *y* hanteert.
 De braillelezer leest het Hebreeuws van links naar rechts.
 
 ## Braillestandaard
 
-Als standaard voor Bijbels Hebreeuws Braille wordt wereldwijd gebruik gemaakt van de International Hebrew Braille Code ({{< abbr IHBC >}}).
-In de tabellen hieronder wordt een overzicht gegeven van de Hebreeuwse tekens met bijbehorende weergave in Braille.
+Als standaard voor Bijbels Hebreeuws braille wordt wereldwijd gebruik gemaakt van de International Hebrew Braille Code ({{< abbr IHBC >}}).
+In de tabellen hieronder wordt een overzicht gegeven van de Hebreeuwse tekens met bijbehorende weergave in braille.
 
 ### Consonanten
 
@@ -69,7 +69,7 @@ In de tabellen hieronder wordt een overzicht gegeven van de Hebreeuwse tekens me
 | ת | Tav zonder dageesj | ⠹ | `?` | 1456 |
 
 > [!NOTE]
-> De *Beet*, *Kaf*, *Pee* en *Tav* krijgen in Braille een apart teken wanneer zij een Dageesj bevatten.
+> De *Beet*, *Kaf*, *Pee* en *Tav* krijgen in braille een apart teken wanneer zij een Dageesj bevatten.
 > Bij andere consonanten (inclusief de *Gimel* en *Dalet*) wordt de *Dageesj* (braillepunt 5, ⠐) vóór de consonant geplaatst.
 >
 > [!NOTE]
@@ -114,7 +114,7 @@ In de tabellen hieronder wordt een overzicht gegeven van de Hebreeuwse tekens me
 | ׀ | Paassek | ⠸ | `_` | 456 |
 
 > [!NOTE]
-> De onderstaande drie scheidende accenten worden in Braille aan het einde van het woord geplaatst waarin ze voorkomen.
+> De onderstaande drie scheidende accenten worden in braille aan het einde van het woord geplaatst waarin ze voorkomen.
 
 | Karakter | Naam | Unicode Braille | ASCII Braille | Braillepunten |
 | --------: | ----------- | --------------- | ----- | ------------- |
@@ -124,7 +124,7 @@ In de tabellen hieronder wordt een overzicht gegeven van de Hebreeuwse tekens me
 
 ### Woorden
 
-Als voorbeeld volgen hieronder een aantal Hebreeuwse woorden met hun representatie in Braille.
+Als voorbeeld volgen hieronder een aantal Hebreeuwse woorden met hun representatie in braille.
 De woorden zijn zo gekozen dat ze zo veel mogelijk braillecombinaties laten zien.
 
 | Woord | Unicode Braille | ASCII Braille |
@@ -159,7 +159,7 @@ De woorden zijn zo gekozen dat ze zo veel mogelijk braillecombinaties laten zien
 
 ### Internationaal
 
-De originele {{< abbr IHBC >}} werd gepubliceerd in 1946 en de documentatie verscheen in een uitgave van de Tenach in Braille in 1950.[^1].
+De originele {{< abbr IHBC >}} werd gepubliceerd in 1946 en de documentatie verscheen in een uitgave van de Tenach in braille in 1950.[^1].
 De {{< abbr IHBC >}} wordt ook beschreven op de [Hebreeuws-Braille pagina op het Engelse Wikipedia](https://en.wikipedia.org/wiki/Hebrew_Braille).
 Voor diverse accenttekens die ontbreken in de {{< abbr IHBC >}} is er een systeem ontwikkeld door Dr. Ray McAllister, Sarah Blake LaRose en Matthew Yeater. De belangrijkste accenten zijn echter ook in de {{< abbr IHBC >}}-standaard beschikbaar zoals hierboven vermeld. De accenttekens van McAllister laten we hier buiten beschouwing.
 
@@ -168,22 +168,22 @@ Voor diverse accenttekens die ontbreken in de {{< abbr IHBC >}} is er een systee
 Het studeren van Hebreeuws door braillelezers zou ondenkbaar geweest zijn zonder de onvermoeibare inzet van Peter Broers.
 Vanaf het begin van deze eeuw heeft hij zich verdiept in het Hebreeuwse brailleschrift en diverse studenten ondersteund bij het zich eigen maken van het Hebreeuws.
 Van het ontwikkelen van speciale lessen voor braillelezers tot het transcriberen van lesmethodes en tentamens, niets was hem te veel.
-Ook heeft hij een editie van zijn woordenboek in Hebreeuws Braille verzorgd.
+Ook heeft hij een editie van zijn woordenboek in Hebreeuws braille verzorgd.
 We zijn hem dan ook veel dank verschuldigd voor zijn pionierswerk.
 
 ### Moderne technieken
 
-Toen Peter Broers met Hebreeuws Braille startte, waren veel technieken van vandaag de dag nog niet beschikbaar.
-Denk daarbij aan manieren om tekens in allerlei verschillende talen visueel en in Braille te presenteren, maar ook aan de mogelijkheid om de complete Bijbeltekst in het interne geheugen van een brailleleesregel te plaatsen.
-Het was dan ook niet zo eenvoudig om het Oude Testament of andere Hebreeuwse bronnen digitaal te raadplegen met behulp van Braille.
-De oplossing die Peter Broers hanteerde, was het omzetten van het Hebreeuws in zogenaamd {{< abbr ASCII >}} Braille.
+Toen Peter Broers met Hebreeuws braille startte, waren veel technieken van vandaag de dag nog niet beschikbaar.
+Denk daarbij aan manieren om tekens in allerlei verschillende talen visueel en in braille te presenteren, maar ook aan de mogelijkheid om de complete Bijbeltekst in het interne geheugen van een brailleleesregel te plaatsen.
+Het was dan ook niet zo eenvoudig om het Oude Testament of andere Hebreeuwse bronnen digitaal te raadplegen met behulp van braille.
+De oplossing die Peter Broers hanteerde, was het omzetten van het Hebreeuws in zogenaamd {{< abbr ASCII >}} braille.
 Dit vereiste echter altijd een handmatige omzetting, want software om dit automatisch te doen was niet beschikbaar.
-Het omzetten vereiste bovendien kennis van zowel het Hebreeuws als ASCII-Braille en was dus een vak apart.
+Het omzetten vereiste bovendien kennis van zowel het Hebreeuws als ASCII-braille en was dus een vak apart.
 
-Tegenwoordig is het met name dankzij de zogenaamde Unicode-standaard mogelijk om zowel Braille als Hebreeuws op een eenduidige manier weer te geven, zonder de noodzaak van aparte lettertypen.
+Tegenwoordig is het met name dankzij de zogenaamde Unicode-standaard mogelijk om zowel braille als Hebreeuws op een eenduidige manier weer te geven, zonder de noodzaak van aparte lettertypen.
 Voorbeelden hiervan zijn te vinden in de [diverse tabellen hierboven](#braillestandaard).
 Een schermlezer (zoals NVDA) die beschikt over de juiste brailletabel is in staat om het Hebreeuwse brailleschrift op een brailleleesregel te presenteren terwijl visueel de Hebreeuwse tekens staan afgedrukt en er praktisch geen aanpassingen nodig zijn.
-Voor de volledigheid staan ook de bijbehorende tekens in ASCII Braille in de tabellen weergegeven.
+Voor de volledigheid staan ook de bijbehorende tekens in ASCII-braille in de tabellen weergegeven.
 Op deze manier hopen we ook (de gebruikers van) het systeem van Peter Broers recht te doen.
 
 [^1]: **Dubov, Leopold.** “Preface.” In *The Holy Bible: The Complete Hebrew Text Embossed in Twenty Volumes*, Volume One: Genesis. New York: Jewish Braille Institute, 1950.

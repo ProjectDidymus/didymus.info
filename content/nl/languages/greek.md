@@ -1,6 +1,6 @@
 ---
 title: "Grieks"
-description: Op deze pagina is meer te vinden over het Grieks, met een focus op Grieks Braille.
+description: Op deze pagina is meer te vinden over het Grieks, met een focus op Grieks braille.
 tags:
 - Braille
 date: 2025-12-01
@@ -16,8 +16,7 @@ De braillestandaard voor Oudgrieks (inclusief Klassiek en Koine) wijkt af van de
 Er is sprake van twee varianten van de standaard, waarin op een verschillende manier wordt omgegaan met de accenten op de klinkertekens:
 
 1. **Decomposed**: Er worden twee brailletekens gebruikt om de klinker met accent weer te geven, namelijk één karakter voor het accent en één karakter voor de klinker. Voor de klinkers worden altijd dezelfde brailletekens gebruikt.
-2. **Composed**: Er wordt één brailleteken
-gebruikt omde klinker met accent weer te geven.
+2. **Composed**: Er wordt één brailleteken gebruikt om de klinker met accent weer te geven.
 
 Het verschil tussen deze systemen is eenvoudig te illustreren met een voorbeeld:
 
@@ -27,14 +26,14 @@ Het verschil tussen deze systemen is eenvoudig te illustreren met een voorbeeld:
 | λογός | ⠇⠕⠛⠈⠕⠎ | ⠇⠕⠛⠪⠎ |
 
 De voor- en nadelen van beide systemen laten zich op basis hiervan vrij eenvoudig uitleggen.
-Het *Composed-systeem* heeft een apart brailleteken voor de ό (Omikron met Acutus), namelijk ⠪ (braillepunten 246).
+Het *Composed-systeem* heeft een apart brailleteken voor de ό (omikron met acutus), namelijk ⠪ (braillepunten 246).
 Dit systeem neemt weliswaar minder ruimte in, maar vereist wel dat je negentien extra braillepatronen moet beheersen, één voor elke klinker-accent-combinatie.
-In het *Decomposed-systeem* wordt de Omikron altijd weergegeven als ⠕ (braillepunten 135), ongeacht of er een accent op de letter staat.
-Wanneer de Omikron dus een Acutus bevat zoals in λογός, wordt de Acutus vóór de Omikron weergegeven als ⠈ (braillepunt 4).
-De Omikron is dus altijd herkenbaar, maar de Omikron met accent neemt meer ruimte in.
+In het *Decomposed-systeem* wordt de omikron altijd weergegeven als ⠕ (braillepunten 135), ongeacht of er een accent op de letter staat.
+Wanneer de omikron dus een acutus bevat zoals in λογόςς, wordt de acutus vóór de omikron weergegeven als ⠈ (braillepunt 4).
+De omikron is dus altijd herkenbaar, maar de omikron met accent neemt meer ruimte in.
 
 Aldus de grammatica van Hensels[^1] worden de accenten aan de meeste Nederlandse universiteiten gebruikt als klemtoontekens.
-Het herkennen van het accent (acutus, gravis, Circumflexus) voegt voor het lezen dus weinig toe.
+Het herkennen van het accent (acutus, gravis, circumflexus) voegt voor het lezen dus weinig toe.
 De extra nadruk op de accenten (ze nemen extra ruimte in) is daarentegen behulpzaam bij het leggen van de juiste klemtoon.
 Daarom kiezen we binnen het verdere bestek van Project Didymus uit overtuiging voor het *Decomposed-systeem*.
 Meer informatie over het *composed-systeem* is te vinden op [de website van Eric Harvey](https://www.blindscholar.com/greek-braille/).
@@ -83,7 +82,7 @@ Meer informatie over het *composed-systeem* is te vinden op [de website van Eric
 
 | Grieks | Naam | Unicode Braille | Braillepunten |
 | ------ | ---------------------------------------------- | --------------- | ---------------- |
-| ά | Acutus | ⠈⠁ | 4-1 |
+| ά | Acutus | ⠈⠁ | 4-1 |
 | ὰ | Gravis | ⠠⠁ | 6-1 |
 | ᾶ | Circumflexus | ⠐⠁ | 5-1 |
 | ἀ | Spiritus Lenis | ⠴⠁ | 356-1 |
@@ -103,26 +102,26 @@ Meer informatie over het *composed-systeem* is te vinden op [de website van Eric
 
 ### Woorden
 
-Als voorbeeld volgen hieronder een aantal Griekse woorden met hun representatie in Braille.
+Als voorbeeld volgen hieronder een aantal Griekse woorden met hun representatie in braille.
 De woorden zijn zo gekozen dat ze zo veel mogelijk braillecombinaties laten zien.
 
 | Woord | Unicode Braille |
 | -------- | --------------- |
-| ἀγάπη | ⠴⠁⠛⠈⠁⠏⠱ |
+| ἀγάπη | ⠴⠁⠛⠈⠁⠏⠱ |
 | ἄγγελος | ⠴⠈⠁⠛⠛⠑⠇⠕⠎ |
-| ἀδελφός | ⠴⠁⠙⠑⠇⠋⠈⠕⠎ |
-| ἁμαρτία | ⠓⠁⠍⠁⠗⠞⠈⠊⠁ |
+| ἀδελφός | ⠴⠁⠙⠑⠇⠋⠈⠕⠎ |
+| ἁμαρτία | ⠓⠁⠍⠁⠗⠞⠈⠊⠁ |
 | ἄνθρωπος | ⠴⠈⠁⠝⠹⠗⠺⠏⠕⠎ |
-| βασιλεία | ⠃⠁⠎⠊⠇⠑⠈⠊⠁ |
-| γραφή | ⠛⠗⠁⠋⠈⠱ |
+| βασιλεία | ⠃⠁⠎⠊⠇⠑⠈⠊⠁ |
+| γραφή | ⠛⠗⠁⠋⠈⠱ |
 | δοῦλος | ⠙⠕⠐⠥⠇⠕⠎ |
 | ἔργον | ⠴⠈⠑⠗⠛⠕⠝ |
-| θεός | ⠹⠑⠈⠕⠎ |
-| καρδία | ⠅⠁⠗⠙⠈⠊⠁ |
-| λογός | ⠇⠕⠛⠈⠕⠎ |
-| νόμος | ⠝⠈⠕⠍⠕⠎ |
-| οὐρανός | ⠕⠴⠥⠗⠁⠝⠈⠕⠎ |
+| θεός | ⠹⠑⠈⠕⠎ |
+| καρδία | ⠅⠁⠗⠙⠈⠊⠁ |
+| λογός | ⠇⠕⠛⠈⠕⠎ |
+| νόμος | ⠝⠈⠕⠍⠕⠎ |
+| οὐρανός | ⠕⠴⠥⠗⠁⠝⠈⠕⠎ |
 | πνεῦμα | ⠏⠝⠑⠐⠥⠍⠁ |
-| προφήτης | ⠏⠗⠕⠋⠈⠱⠞⠱⠎ |
-| υἱός | ⠓⠥⠓⠊⠈⠕⠎ |
-| Χριστός | ⠨⠯⠗⠊⠎⠞⠈⠕⠎ |
+| προφήτης | ⠏⠗⠕⠋⠈⠱⠞⠱⠎ |
+| υἱός | ⠓⠥⠓⠊⠈⠕⠎ |
+| Χριστός | ⠨⠯⠗⠊⠎⠞⠈⠕⠎ |
