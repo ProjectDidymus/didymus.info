@@ -101,3 +101,30 @@ Meer informatie over het *composed-systeem* is te vinden op [de website van Eric
 | ᾆ      | Spiritus Lenis + Circumflexus + Iota Subscriptum | ⠴⠐⠁⠔            | 356-5-1-35 |
 | ᾇ      | Spiritus Asper + Circumflexus + Iota Subscriptum | ⠓⠐⠁⠔            | 125-5-1-35 |
 | ᾶ      | Circumflexus + Iota Subscriptum                  | ⠐⠁⠔             | 5-1-35       |
+
+### Woorden
+
+Als voorbeeld volgen hieronder een aantal Griekse woorden met hun representatie in Braille.
+De woorden zijn zo gekozen dat ze zo veel mogelijk braillecombinaties laten zien.
+
+| Woord    | Unicode Braille |
+| -------- | --------------- |
+| ἀγάπη    | ⠴⠁⠛⠈⠁⠏⠱         |
+| ἀδελφός  | ⠴⠁⠙⠑⠇⠋⠈⠕⠎       |
+| ἄνθρωπος | ⠴⠈⠁⠝⠹⠗⠺⠏⠕⠎      |
+| γῆ       | ⠛⠐⠱             |
+| θεός     | ⠹⠑⠈⠕⠎           |
+| Χριστός  | ⠨⠯⠗⠊⠎⠞⠈⠕⠎       |
+| λογός    | ⠇⠕⠛⠈⠕⠎          |
+| νόμος    | ⠝⠈⠕⠍⠕⠎          |
+| οὐρανός  | ⠕⠴⠥⠗⠁⠝⠈⠕⠎       |
+| υἱός     | ⠓⠥⠓⠊⠈⠕⠎         |
+| ἄγγελος  | ⠴⠈⠁⠛⠛⠑⠇⠕⠎       |
+| ἁμαρτία  | ⠓⠁⠍⠁⠗⠞⠈⠊⠁       |
+| ἔργον    | ⠴⠈⠑⠗⠛⠕⠝         |
+| βασιλεία | ⠃⠁⠎⠊⠇⠑⠈⠊⠁       |
+| γραφή    | ⠛⠗⠁⠋⠈⠱          |
+| καρδία   | ⠅⠁⠗⠙⠈⠊⠁         |
+| προφήτης | ⠏⠗⠕⠋⠈⠱⠞⠱⠎       |
+| δοῦλος   | ⠙⠕⠐⠥⠇⠕⠎         |
+| πνεῦμα   | ⠏⠝⠑⠐⠥⠍⠁         |
