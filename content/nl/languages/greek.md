@@ -29,7 +29,7 @@ De voor- en nadelen van beide systemen laten zich op basis hiervan vrij eenvoudi
 Het *Composed-systeem* heeft een apart brailleteken voor de ό (omikron met acutus), namelijk ⠪ (braillepunten 246).
 Dit systeem neemt weliswaar minder ruimte in, maar vereist wel dat je negentien extra braillepatronen moet beheersen, één voor elke klinker-accent-combinatie.
 In het *Decomposed-systeem* wordt de omikron altijd weergegeven als ⠕ (braillepunten 135), ongeacht of er een accent op de letter staat.
-Wanneer de omikron dus een acutus bevat zoals in λογόςς, wordt de acutus vóór de omikron weergegeven als ⠈ (braillepunt 4).
+Wanneer de omikron dus een acutus bevat zoals in λογός, wordt de acutus vóór de omikron weergegeven als ⠈ (braillepunt 4).
 De omikron is dus altijd herkenbaar, maar de omikron met accent neemt meer ruimte in.
 
 Aldus de grammatica van Hensels[^1] worden de accenten aan de meeste Nederlandse universiteiten gebruikt als klemtoontekens.
