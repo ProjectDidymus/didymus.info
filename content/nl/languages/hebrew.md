@@ -119,6 +119,39 @@ In de tabellen hieronder wordt een overzicht gegeven van de Hebreeuwse tekens me
 | ֑       | Atnach    | ⠆               | 23            |
 | ׃        | Sof pasoek  | ⠲               | 256           |
 
+### Woorden
+
+Als voorbeeld volgen hieronder een aantal Hebreeuwse woorden met hun representatie in Braille.
+De woorden zijn zo gekozen dat ze zo veel mogelijk braillecombinaties laten zien.
+
+| Woord     | Braille  |
+| --------: | -------- |
+| אָב       | ⠁⠣⠧      |
+| אֱמֶת | ⠁⠢⠍⠑⠹ |
+| בַּת      | ⠃⠉⠹      |
+| גָּדוֹל   | ⠐⠛⠣⠙⠪⠇   |
+| דֶּרֶךְ  | ⠐⠙⠑⠗⠑⠅⠄  |
+| הֵיכָל    | ⠓⠼⠡⠣⠇    |
+| וְ        | ⠺⠄       |
+| זֶרַע    | ⠵⠑⠗⠉⠫    |
+| חֲכָם | ⠭⠒⠡⠣⠍ |
+| חֳלִי | ⠭⠜⠇⠔
+| חֵמָה    | ⠭⠌⠍⠣⠓    |
+| טוֹב      | ⠞⠪⠧      |
+| יָמִין | ⠚⠣⠍⠔⠝ |
+| כֹּהֵן    | ⠅⠕⠓⠌⠝    |
+| כָּבוֹד   | ⠅⠣⠧⠪⠙    |
+| לֶחֶם    | ⠇⠑⠭⠑⠍    |
+| מִזְבֵּחַ | ⠍⠊⠵⠄⠃⠌⠭⠉ |
+| מְלֻכָּה | ⠍⠄⠇⠥⠅⠣⠓ |
+| נְחֹשֶׁת | ⠝⠄⠭⠕⠩⠑⠹  |
+| סֵפֶר    | ⠎⠌⠋⠑⠗    |
+| צָפוֹן    | ⠮⠣⠋⠪⠝    |
+| קָדוֹשׁ   | ⠟⠣⠙⠪⠩    |
+| רוּחַ | ⠗⠬⠭⠉ |
+| שַׁבָּת   | ⠩⠉⠃⠣⠹    |
+| שָׂדֶה    | ⠱⠣⠙⠑⠓    |
+
 ## Geschiedenis
 
 ### Internationaal
