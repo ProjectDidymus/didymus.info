@@ -31,7 +31,7 @@ De braillelezer leest het Hebreeuws van links naar rechts.
 
 ## Braillestandaard
 
-Als standaard voor Bijbels Hebreeuws Braille wordt wereldwijd gebruik gemaakt van de {{< abbr IHBC >}}.
+Als standaard voor Bijbels Hebreeuws Braille wordt wereldwijd gebruik gemaakt van de International Hebrew Braille Code ({{< abbr IHBC >}}).
 In de tabellen hieronder wordt een overzicht gegeven van de Hebreeuwse tekens met bijbehorende weergave in Braille.
 
 ### Consonanten
@@ -157,8 +157,8 @@ De woorden zijn zo gekozen dat ze zo veel mogelijk braillecombinaties laten zien
 ### Internationaal
 
 De originele {{< abbr IHBC >}} werd gepubliceerd in 1946 en de documentatie verscheen in een uitgave van de Tenach in Braille in 1950.[^1].
-De IHBC wordt ook beschreven op de [Hebreeuws-Braille pagina op het Engelse Wikipedia](https://en.wikipedia.org/wiki/Hebrew_Braille).
-Voor diverse accenttekens die ontbreken in de IHBC is er een systeem ontwikkeld door Dr. Ray McAllister, Sarah Blake LaRose en Matthew Yeater. De belangrijkste accenten zijn echter ook in de IHBC-standaard beschikbaar zoals hierboven vermeld. De accenttekens van McAllister laten we hier buiten beschouwing.
+De {{< abbr IHBC >}} wordt ook beschreven op de [Hebreeuws-Braille pagina op het Engelse Wikipedia](https://en.wikipedia.org/wiki/Hebrew_Braille).
+Voor diverse accenttekens die ontbreken in de {{< abbr IHBC >}} is er een systeem ontwikkeld door Dr. Ray McAllister, Sarah Blake LaRose en Matthew Yeater. De belangrijkste accenten zijn echter ook in de {{< abbr IHBC >}}-standaard beschikbaar zoals hierboven vermeld. De accenttekens van McAllister laten we hier buiten beschouwing.
 
 ### Nederland
 
@@ -173,10 +173,14 @@ We zijn hem dan ook veel dank verschuldigd voor zijn pionierswerk.
 Toen Peter Broers met Hebreeuws Braille startte, waren veel technieken van vandaag de dag nog niet beschikbaar.
 Denk daarbij aan manieren om tekens in allerlei verschillende talen visueel en in Braille te presenteren, maar ook aan de mogelijkheid om de complete Bijbeltekst in het interne geheugen van een brailleleesregel te plaatsen.
 Het was dan ook niet zo eenvoudig om het Oude Testament of andere Hebreeuwse bronnen digitaal te raadplegen met behulp van Braille.
-Dit leverde voor zowel student als docent vaak onoverkomelijke hobbels op.
+De oplossing die Peter Broers hanteerde, was het omzetten van het Hebreeuws in zogenaamd {{< abbr ASCII >}} Braille.
+Dit vereiste echter altijd een handmatige omzetting, want software om dit automatisch te doen was niet beschikbaar.
+Het omzetten vereiste bovendien kennis van zowel het Hebreeuws als ASCII-Braille en was dus een vak apart.
 
 Tegenwoordig is het met name dankzij de zogenaamde Unicode-standaard mogelijk om zowel Braille als Hebreeuws op een eenduidige manier weer te geven, zonder de noodzaak van aparte lettertypen.
-Een voorbeeld hiervan is te vinden in de [diverse tabellen hierboven](#braillestandaard).
-Een schermlezer (zoals NVDA) die beschikt over een brailletabel is in staat om het Hebreeuwse brailleschrift op een brailleleesregel te presenteren terwijl visueel de Hebreeuwse tekens staan afgedrukt en er praktisch geen aanpassingen nodig zijn.
+Voorbeelden hiervan zijn te vinden in de [diverse tabellen hierboven](#braillestandaard).
+Een schermlezer (zoals NVDA) die beschikt over de juiste brailletabel is in staat om het Hebreeuwse brailleschrift op een brailleleesregel te presenteren terwijl visueel de Hebreeuwse tekens staan afgedrukt en er praktisch geen aanpassingen nodig zijn.
+Voor de volledigheid staan ook de bijbehorende tekens in ASCII Braille in de tabellen weergegeven.
+Op deze manier hopen we ook (de gebruikers van) het systeem van Peter Broers recht te doen.
 
 [^1]: **Dubov, Leopold.** “Preface.” In *The Holy Bible: The Complete Hebrew Text Embossed in Twenty Volumes*, Volume One: Genesis. New York: Jewish Braille Institute, 1950.
