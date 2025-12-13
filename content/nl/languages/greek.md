@@ -6,7 +6,7 @@ tags:
 date: 2025-12-01
 menu:
   main:
-  parent: "Grondtalen"
+    parent: "Grondtalen"
 weight: 1
 ---
 
