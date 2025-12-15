@@ -12,33 +12,7 @@ weight: 1
 
 ## Inleiding
 
-De braillestandaard voor Oudgrieks (inclusief Klassiek en Koine) wijkt af van de standaard die in Griekenland voor modern Grieks wordt gebruikt. Daarom noemt men het vaak de *“International Greek Braille Code”*.
-Er is sprake van twee varianten van de standaard, waarin op een verschillende manier wordt omgegaan met de accenten op de klinkertekens:
-
-1. **Decomposed**: Er worden twee brailletekens gebruikt om de klinker met accent weer te geven, namelijk één karakter voor het accent en één karakter voor de klinker. Voor de klinkers worden altijd dezelfde brailletekens gebruikt.
-2. **Composed**: Er wordt één brailleteken gebruikt om de klinker met accent weer te geven.
-
-Het verschil tussen deze systemen is eenvoudig te illustreren met een voorbeeld:
-
-| Grieks | Decomposed | Composed |
-| --- | --- | --- |
-| λογος | ⠇⠕⠛⠕⠎ | ⠇⠕⠛⠕⠎ |
-| λογός | ⠇⠕⠛⠈⠕⠎ | ⠇⠕⠛⠪⠎ |
-
-De voor- en nadelen van beide systemen laten zich op basis hiervan vrij eenvoudig uitleggen.
-Het *Composed-systeem* heeft een apart brailleteken voor de ό (omikron met acutus), namelijk ⠪ (braillepunten 246).
-Dit systeem neemt weliswaar minder ruimte in, maar vereist wel dat je negentien extra braillepatronen moet beheersen, één voor elke klinker-accent-combinatie.
-In het *Decomposed-systeem* wordt de omikron altijd weergegeven als ⠕ (braillepunten 135), ongeacht of er een accent op de letter staat.
-Wanneer de omikron dus een acutus bevat zoals in λογός, wordt de acutus vóór de omikron weergegeven als ⠈ (braillepunt 4).
-De omikron is dus altijd herkenbaar, maar de omikron met accent neemt meer ruimte in.
-
-Aldus de grammatica van Hensels[^1] worden de accenten aan de meeste Nederlandse universiteiten gebruikt als klemtoontekens.
-Het herkennen van het accent (acutus, gravis, circumflexus) voegt voor het lezen dus weinig toe.
-De extra nadruk op de accenten (ze nemen extra ruimte in) is daarentegen behulpzaam bij het leggen van de juiste klemtoon.
-Daarom kiezen we binnen het verdere bestek van Project Didymus uit overtuiging voor het *Decomposed-systeem*.
-Meer informatie over het *composed-systeem* is te vinden op [de website van Eric Harvey](https://www.blindscholar.com/greek-braille/).
-
-[^1]: Paul M. Hensels, *Nieuwtestamentisch Grieks: een beknopte grammatica* (Coutinho, 2008), 21.
+De braillestandaard voor Oudgrieks (inclusief Klassiek en Koine) wijkt af van de standaard die in Griekenland voor modern Grieks wordt gebruikt. Daarom noemt men het vaak de *International Greek Braille Code*.[^1]
 
 ## Braillestandaard
 
@@ -125,3 +99,34 @@ De woorden zijn zo gekozen dat ze zo veel mogelijk braillecombinaties laten zien
 | προφήτης | ⠏⠗⠕⠋⠈⠱⠞⠱⠎ |
 | υἱός | ⠓⠥⠓⠊⠈⠕⠎ |
 | Χριστός | ⠨⠯⠗⠊⠎⠞⠈⠕⠎ |
+
+## Verantwoording
+
+Er is sprake van twee varianten van de {{< abbr IGBC >}}, waarin op een verschillende manier wordt omgegaan met de accenten op de klinkertekens:
+
+1. **Decomposed**: Er worden twee brailletekens gebruikt om de klinker met accent weer te geven, namelijk één karakter voor het accent en één karakter voor de klinker. Voor de klinkers worden altijd dezelfde brailletekens gebruikt. Deze variant wordt ook wel *two-cell accented* genoemd.
+2. **Composed**: Er wordt één brailleteken gebruikt om de klinker met accent weer te geven. Deze variant wordt ook wel *single-cell accented* genoemd.
+
+Het verschil tussen deze systemen is eenvoudig te illustreren met een voorbeeld:
+
+| Grieks | Decomposed | Composed |
+| --- | --- | --- |
+| λογος | ⠇⠕⠛⠕⠎ | ⠇⠕⠛⠕⠎ |
+| λογός | ⠇⠕⠛⠈⠕⠎ | ⠇⠕⠛⠪⠎ |
+
+De voor- en nadelen van beide systemen laten zich op basis hiervan vrij eenvoudig uitleggen:
+
+- Het *Composed-systeem* heeft een apart brailleteken voor de ό (omikron met acutus), namelijk ⠪ (braillepunten 246).
+  Dit systeem neemt weliswaar minder ruimte in, maar vereist wel dat je negentien extra braillepatronen moet beheersen, één voor elke klinker-accent-combinatie.
+- In het *Decomposed-systeem* wordt de omikron altijd weergegeven als ⠕ (braillepunten 135), ongeacht of er een accent op de letter staat.
+Wanneer de omikron dus een acutus bevat zoals in λογός, wordt de acutus vóór de omikron weergegeven als ⠈ (braillepunt 4).
+De omikron is dus altijd herkenbaar, maar de omikron met accent neemt meer ruimte in.
+
+Aldus de grammatica van Hensels[^2] worden de accenten aan de meeste Nederlandse universiteiten gebruikt als klemtoontekens.
+Het herkennen van het accent (acutus, gravis, circumflexus) voegt voor het lezen dus weinig toe.
+De extra nadruk op de accenten (ze nemen extra ruimte in) is daarentegen behulpzaam bij het leggen van de juiste klemtoon.
+Daarom kiezen we binnen het bestek van Project Didymus uit overtuiging voor het *Decomposed-systeem*.
+Meer informatie over het *composed-systeem* is te vinden op [de website van Eric Harvey](https://www.blindscholar.com/greek-braille/).
+
+[^1]: "Greek (International)," in *World Braille Usage*, 3rd ed. (Perkins, 2013).
+[^2]: Paul M. Hensels, *Nieuwtestamentisch Grieks: een beknopte grammatica* (Coutinho, 2008), 21.

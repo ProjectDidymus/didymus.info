@@ -186,4 +186,4 @@ Een schermlezer (zoals NVDA) die beschikt over de juiste brailletabel is in staa
 Voor de volledigheid staan ook de bijbehorende tekens in ASCII-braille in de tabellen weergegeven.
 Op deze manier hopen we ook (de gebruikers van) het systeem van Peter Broers recht te doen.
 
-[^1]: **Dubov, Leopold.** “Preface.” In *The Holy Bible: The Complete Hebrew Text Embossed in Twenty Volumes*, Volume One: Genesis. New York: Jewish Braille Institute, 1950.
+[^1]: LEOPOLD DUBOV, "Preface," In *The Holy Bible: The Complete Hebrew Text Embossed in Twenty Volumes*, Volume One: Genesis (Jewish Braille Institute, 1950).

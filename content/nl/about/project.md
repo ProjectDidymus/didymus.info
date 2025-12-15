@@ -36,4 +36,3 @@ Project Didymus wil deze visie realiseren door:
 ## Huidige activiteiten
 
 Op dit moment onderzoeken we manieren om de toegang tot de oorspronkelijke bijbelse talen te verbeteren. Dit omvat niet alleen het translitereren van digitale teksten voor brailleleesregels of spraak, maar ook het toegankelijk maken van het kritisch apparaat en het verbeteren van de bruikbaarheid van bijbelsoftware voor mensen met een visuele beperking.
-
