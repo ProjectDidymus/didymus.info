@@ -17,13 +17,37 @@ collections:
     nested:
       depth: 3
       summary: "{{title}}"
-      subfolders: true
+      subfolders: false
       meta: { path: { widget: string, label: "Pad", index_file: "_index" } }
     fields:
-      - label: Title
-        name: Titel
+      - label: Titel
+        name: title
         widget: string
         i18n: true
-      - label: Body
-        name: Inhoud
+      - label: Omschrijving
+        name: description
+        widget: text
+        i18n: true
+      - label: Datum
+        name: date
+        widget: "datetime"
+        default: "{{now}}"
+        date_format: "YYYY-MM_DD"
+      - label: Concept
+        name: draft"
+        widget: boolean
+        default: true
+      - label: "Tags"
+        name: "tags"
+        required: false
+        widget: "list"
+      - label: Inhoud
+        name: content
         widget: markdown
+        i18n: true
+      - label: Gewicht
+        name: weight
+        widget: "number"
+        value_type: "int"
+        min: 1
+        max: 100
