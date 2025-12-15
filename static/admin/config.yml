@@ -1,6 +1,8 @@
+site_url: https://didymus.info
 backend:
   name: git-gateway
   branch: beta
+locale: "nl"
 i18n:
   structure: multiple_folders
   locales: [nl, en]
@@ -8,16 +10,20 @@ i18n:
 media_folder: static/img
 public_folder: /img
 collections:
-  - name: main_content
+  - name: content
     label: Content
     folder: content
     i18n: true
+    nested:
+      depth: 3
+      summary: "{{title}}"
+      subfolders: true
+      meta: { path: { widget: string, label: "Pad", index_file: "_index" } }
     fields:
       - label: Title
-        name: title
+        name: Titel
         widget: string
         i18n: true
       - label: Body
-        name: body
+        name: Inhoud
         widget: markdown
-
