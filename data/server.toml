@@ -10,7 +10,7 @@
     Content-Security-Policy = """
       base-uri 'self'; \
       default-src 'none'; \
-      script-src 'self' *.netlify.com unpkg.com 'unsafe-inline'; \
+      script-src 'self' *.netlify.com unpkg.com 'unsafe-inline' 'unsafe-eval'; \
       connect-src 'self' *.netlify.com; \
       frame-src identity.netlify.com; \
       style-src 'self' 'unsafe-inline'; \
