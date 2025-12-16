@@ -4,7 +4,9 @@ local_backend: true
 backend:
   name: git-gateway
   branch: beta
+  squash_merges: true
 locale: "nl"
+publish_mode: editorial_workflow
 i18n:
   structure: multiple_folders
   locales: [nl, en]
