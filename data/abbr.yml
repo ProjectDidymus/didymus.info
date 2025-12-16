@@ -1,2 +1,6 @@
-- id: test
-  long: dikke hond
+- id: ihbc
+  long: "International Hebrew Braille Code"
+- id: igbc
+  long: "International Greek Braille Code"
+- id: ascii
+  long: "American Standard Code for Information Interchange"
