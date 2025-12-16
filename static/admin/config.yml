@@ -12,31 +12,12 @@ i18n:
 media_folder: static/img
 public_folder: /img
 collections:
-  - label: "Data"
-    name: data
-    files:
-      - label: "Afkortingen"
-        name: "abbr"
-        file: "data/abbr.yaml"
-        fields:
-          - name: abbreviations
-            label: Afkortingen
-            label_singular: afkorting
-            widget: list
-            fields:
-              - label: "Afkorting"
-                name: "id"
-                widget: "string"
-              - label: "betekenis"
-                name: "long"
-                widget: "string"
   - name: content
     label: Inhoud
     folder: content
     i18n: true
     nested:
       depth: 2
-      summary: "{{title}}"
       subfolders: false
       meta:
         path:
