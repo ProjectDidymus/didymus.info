@@ -18,4 +18,3 @@ content_blocks:
     cover: true
     justify: center
 ---
-
