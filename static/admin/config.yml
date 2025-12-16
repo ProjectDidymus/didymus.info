@@ -1,4 +1,6 @@
 site_url: https://didymus.info
+display_url: https://beta.didymus.info
+local_backend: true
 backend:
   name: git-gateway
   branch: beta
@@ -10,15 +12,37 @@ i18n:
 media_folder: static/img
 public_folder: /img
 collections:
+  - label: "Data"
+    name: data
+    files:
+      - label: "Afkortingen"
+        name: "abbr"
+        file: "data/abbr.yaml"
+        fields:
+          - name: abbreviations
+            label: Afkortingen
+            label_singular: afkorting
+            widget: list
+            fields:
+              - label: "Afkorting"
+                name: "id"
+                widget: "string"
+              - label: "betekenis"
+                name: "long"
+                widget: "string"
   - name: content
-    label: Content
+    label: Inhoud
     folder: content
     i18n: true
     nested:
-      depth: 3
+      depth: 2
       summary: "{{title}}"
       subfolders: false
-      meta: { path: { widget: string, label: "Pad", index_file: "_index" } }
+      meta:
+        path:
+          widget: string
+          label: "Pad"
+          index_file: "_index"
     fields:
       - label: Titel
         name: title
@@ -42,7 +66,7 @@ collections:
         required: false
         widget: "list"
       - label: Inhoud
-        name: content
+        name: body
         widget: markdown
         i18n: true
       - label: Gewicht
