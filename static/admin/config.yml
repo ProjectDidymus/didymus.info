@@ -16,6 +16,8 @@ public_folder: /img
 collections:
   - name: content
     label: Inhoud
+    extension: md
+    format: yaml-frontmatter
     folder: content
     i18n: true
     nested:
