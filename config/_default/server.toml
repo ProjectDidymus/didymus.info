@@ -36,4 +36,3 @@
   from = '/*'
   status = 404
   to = '/404.html'
-
