@@ -1,33 +1,42 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
 site_url: https://didymus.info
 display_url: https://beta.didymus.info
-local_backend: true
 backend:
-  name: git-gateway
+  name: github
+  repo: "projectdidymus/didymus.info"
   branch: beta
   squash_merges: true
-locale: "nl"
-publish_mode: editorial_workflow
 i18n:
   structure: multiple_folders
   locales: [nl, en]
   default_locale: nl
+  initial_locales: [nl]
 media_folder: static/img
 public_folder: /img
+singletons:
+  - name: abbreviations
+    label: Afkortingen
+    file: data/abbr.yml
+    i18n: false
+    format: yml
+    fields:
+      - label: Afkortingen
+        label_singular: Afkorting
+        name: abbreviations
+        widget: list
+        root: true
+        fields:
+          - label: Afkorting
+            name: id
+            widget: string
+          - label: Volledige tekst
+            name: long
+            widget: string
 collections:
-  - name: content
-    label: Inhoud
-    extension: md
-    format: yaml-frontmatter
-    folder: content
+  - name: about
+    label: Over
+    folder: content/{{locale}}/about
     i18n: true
-    nested:
-      depth: 2
-      subfolders: false
-      meta:
-        path:
-          widget: string
-          label: "Pad"
-          index_file: "_index"
     fields:
       - label: Titel
         name: title
