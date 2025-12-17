@@ -42,6 +42,7 @@
     for = "/admin/*"
 
     [headers.values]
+        Cross-Origin-Opener-Policy = "same-origin-allow-popups"
         Content-Security-Policy = """
             base-uri 'self'; \
             default-src 'none'; \
