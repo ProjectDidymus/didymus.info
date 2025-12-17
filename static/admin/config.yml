@@ -1,22 +1,251 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+site_url: https://didymus.info
+display_url: https://beta.didymus.info
 backend:
-  name: git-gateway
+  name: github
+  repo: "projectdidymus/didymus.info"
   branch: beta
+  squash_merges: true
 i18n:
   structure: multiple_folders
   locales: [nl, en]
   default_locale: nl
+  initial_locales: [nl]
 media_folder: static/img
+publish_mode: editorial_workflow
 public_folder: /img
+singletons:
+  - name: abbreviations
+    label: Afkortingen
+    file: data/abbr.yml
+    i18n: false
+    format: yml
+    fields:
+      - label: Afkortingen
+        label_singular: Afkorting
+        name: abbreviations
+        widget: list
+        root: true
+        fields:
+          - label: Afkorting
+            name: id
+            widget: string
+          - label: Volledige tekst
+            name: long
+            widget: string
 collections:
-  - name: main_content
-    label: Content
+  - name: about
+    label: Over
     folder: content
+    path: "about/{{slug}}"
+    create: false
+    index_file: true
     i18n: true
     fields:
-      - label: Title
+      - label: Titel
         name: title
         widget: string
         i18n: true
-      - label: Body
+      - label: Omschrijving
+        name: description
+        widget: text
+        i18n: true
+      - label: Datum
+        name: date
+        widget: "datetime"
+        default: "{{now}}"
+        date_format: "YYYY-MM_DD"
+      - label: Concept
+        name: draft"
+        widget: boolean
+        default: true
+      - label: "Tags"
+        name: "tags"
+        required: false
+        widget: "list"
+      - label: Inhoud
         name: body
         widget: markdown
+        i18n: true
+      - label: Gewicht
+        name: weight
+        widget: "number"
+        value_type: "int"
+        min: 1
+        max: 100
+      - label: "Niet opnemen in zoekresultaten"
+        name: searchExclude
+        widget: boolean
+        default: false
+  - name: languages
+    label: "Grondtalen"
+    folder: content
+    path: "content/{{slug}}"
+    create: false
+    index_file: true
+    i18n: false
+    fields:
+      - label: Titel
+        name: title
+        widget: string
+        i18n: true
+      - label: Omschrijving
+        name: description
+        widget: text
+        i18n: true
+      - label: Datum
+        name: date
+        widget: "datetime"
+        default: "{{now}}"
+        date_format: "YYYY-MM_DD"
+      - label: Concept
+        name: draft"
+        widget: boolean
+        default: true
+      - label: "Tags"
+        name: "tags"
+        required: false
+        widget: "list"
+      - label: Inhoud
+        name: body
+        widget: markdown
+        i18n: true
+      - label: Gewicht
+        name: weight
+        widget: "number"
+        value_type: "int"
+        min: 1
+        max: 100
+      - label: "Niet opnemen in zoekresultaten"
+        name: searchExclude
+        widget: boolean
+        default: false
+  - name: content
+    label: "Aangepaste Content"
+    folder: content
+    path: "content/{{slug}}"
+    create: false
+    index_file: true
+    i18n: false
+    fields:
+      - label: Titel
+        name: title
+        widget: string
+        i18n: true
+      - label: Omschrijving
+        name: description
+        widget: text
+        i18n: true
+      - label: Datum
+        name: date
+        widget: "datetime"
+        default: "{{now}}"
+        date_format: "YYYY-MM_DD"
+      - label: Concept
+        name: draft"
+        widget: boolean
+        default: true
+      - label: "Tags"
+        name: "tags"
+        required: false
+        widget: "list"
+      - label: Inhoud
+        name: body
+        widget: markdown
+        i18n: true
+      - label: Gewicht
+        name: weight
+        widget: "number"
+        value_type: "int"
+        min: 1
+        max: 100
+      - label: "Niet opnemen in zoekresultaten"
+        name: searchExclude
+        widget: boolean
+        default: false
+  - name: software
+    label: "Software & apparatuur"
+    folder: content
+    path: "software/{{slug}}"
+    create: false
+    index_file: true
+    i18n: false
+    fields:
+      - label: Titel
+        name: title
+        widget: string
+        i18n: true
+      - label: Omschrijving
+        name: description
+        widget: text
+        i18n: true
+      - label: Datum
+        name: date
+        widget: "datetime"
+        default: "{{now}}"
+        date_format: "YYYY-MM_DD"
+      - label: Concept
+        name: draft"
+        widget: boolean
+        default: true
+      - label: "Tags"
+        name: "tags"
+        required: false
+        widget: "list"
+      - label: Inhoud
+        name: body
+        widget: markdown
+        i18n: true
+      - label: Gewicht
+        name: weight
+        widget: "number"
+        value_type: "int"
+        min: 1
+        max: 100
+      - label: "Niet opnemen in zoekresultaten"
+        name: searchExclude
+        widget: boolean
+        default: false
+  - name: testimonials
+    label: "Aangepaste Content"
+    folder: content
+    path: "content/{{slug}}"
+    create: false
+    index_file: true
+    i18n: false
+    fields:
+      - label: Titel
+        name: title
+        widget: string
+        i18n: true
+      - label: Omschrijving
+        name: description
+        widget: text
+        i18n: true
+      - label: Datum
+        name: date
+        widget: "datetime"
+        default: "{{now}}"
+        date_format: "YYYY-MM_DD"
+      - label: Concept
+        name: draft"
+        widget: boolean
+        default: true
+      - label: "Tags"
+        name: "tags"
+        required: false
+        widget: "list"
+      - label: Inhoud
+        name: body
+        widget: markdown
+        i18n: true
+      - label: Gewicht
+        name: weight
+        widget: "number"
+        value_type: "int"
+        min: 1
+        max: 100
+      - label: "Niet opnemen in zoekresultaten"
+        name: searchExclude
+        widget: boolean
+        default: false
