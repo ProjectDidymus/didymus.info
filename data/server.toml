@@ -1,18 +1,4 @@
 [[headers]]
-    for = "/admin/*"
-
-    [headers.values]
-        Content-Security-Policy = """
-            style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; \
-            font-src 'self' https://fonts.gstatic.com; \
-            img-src 'self' blob: data:; \
-            media-src blob:; \
-            frame-src blob:; \
-            script-src 'self' https://unpkg.com; \
-            connect-src 'self' blob: data: https://unpkg.com;
-            """
-
-[[headers]]
     for = "/**"
     [headers.values]
         Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
@@ -50,6 +36,20 @@
             form-action 'self'; \
             manifest-src 'self'; \
             media-src 'self' \
+            """
+
+[[headers]]
+    for = "/admin/*"
+
+    [headers.values]
+        Content-Security-Policy = """
+            style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; \
+            font-src 'self' https://fonts.gstatic.com; \
+            img-src 'self' blob: data:; \
+            media-src blob:; \
+            frame-src blob:; \
+            script-src 'self' https://unpkg.com; \
+            connect-src 'self' blob: data: https://unpkg.com;
             """
 
 [[redirects]]
