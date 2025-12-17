@@ -42,6 +42,7 @@
     for = "/admin/*"
 
     [headers.values]
+        Cross-Origin-Opener-Policy = "same-origin-allow-popups"
         Content-Security-Policy = """
             style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; \
             font-src 'self' https://fonts.gstatic.com; \
@@ -49,7 +50,7 @@
             media-src blob:; \
             frame-src blob:; \
             script-src 'self' https://unpkg.com; \
-            connect-src 'self' blob: data: https://unpkg.com;
+            connect-src 'self' blob: data: https://unpkg.com; \
             """
 
 [[redirects]]
