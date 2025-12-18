@@ -8,9 +8,8 @@
     loading = "lazy"
     breakpoint = "md"
     [main.colorMode]
-        enabled = false
+        enabled = true
         modes = ["light", "dark"]
-        toggle = true
     [main.internalLinks]
         validate = true
         pretty = true
