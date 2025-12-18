@@ -13,7 +13,7 @@ defaultMarkdownHandler = "goldmark"
     tabWidth = 2
     ## Update the 'create:syntax' command in package.json to modify the style
     ## The first two lines have been modified to remove the background color
-    # style = "monokailight" 
+    # style = "monokailight"
 
 [goldmark]
     [goldmark.extensions]
@@ -29,6 +29,17 @@ defaultMarkdownHandler = "goldmark"
     [goldmark.extensions.passthrough.delimiters]
         block = [['\[', '\]'], ['$$', '$$']]
         inline = [['\(', '\)'], ['$', '$']]
+    [goldmark.extensions.extras]
+        [goldmark.extensions.extras.delete]
+            enable = true
+        [goldmark.extensions.extras.insert]
+            enable = true
+        [goldmark.extensions.extras.mark]
+            enable = true
+        [goldmark.extensions.extras.subscript]
+            enable = true
+        [goldmark.extensions.extras.superscript]
+            enable = true
     [goldmark.parser]
         autoHeadingID = true
         autoHeadingIDType = 'github'

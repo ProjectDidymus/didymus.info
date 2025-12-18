@@ -3,6 +3,7 @@ title: "Grieks"
 description: Op deze pagina is meer te vinden over het Grieks, met een focus op Grieks braille.
 tags:
 - Braille
+- Grondtalen
 date: 2025-12-01
 menu:
   main:

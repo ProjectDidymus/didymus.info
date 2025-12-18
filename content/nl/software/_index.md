@@ -1,6 +1,6 @@
 ---
 title: "Software & apparatuur"
-draft: true
+draft:
 menu:
   main:
 weight: 60
