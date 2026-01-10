@@ -14,7 +14,7 @@ Stieneke (b. 1998) finished her Bachelor of Theology at the Christian University
 
 ## Maarten The MA
 
-Maarten studied theology at the Christian University of Applied Sciences in Ede. After finishing his bachelor's degree, he continued his studies at the Baptist Seminary and the Vrije Universiteit Amsterdam. Specializing in Baptistic and Evangelical leadership, he earned his master's degree in theology and religious studies. Currently, Maarten serves as a full-time pastor at the Kruiskerk, a Baptist congregation in Dordrecht.
+Maarten (b. 1994) studied theology at the Christian University of Applied Sciences in Ede. After finishing his bachelor's degree, he continued his studies at the Baptist Seminary and the Vrije Universiteit Amsterdam. Specializing in Baptistic and Evangelical leadership, he earned his master's degree in theology and religious studies. Currently, Maarten serves as a full-time pastor at the Kruiskerk, a Baptist congregation in Dordrecht.
 
 ## Leonard de Ruiter MSc
 

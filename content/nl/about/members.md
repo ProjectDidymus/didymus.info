@@ -14,7 +14,10 @@ Stieneke  (geb. 1998) voltooide haar Bachelor Theologie aan de Christelijke Hoge
 
 ## Maarten The MA
 
-Maarten studeerde theologie aan de Christelijke Hogeschool Ede. Na zijn bachelor vervolgde hij zijn studie aan het Baptistenseminarium en de Vrije Universiteit Amsterdam. Gespecialiseerd in baptistisch-evangelisch leiderschap, behaalde hij zijn master in theologie en godsdienstwetenschappen. Momenteel is Maarten fulltime predikant bij de Kruiskerk, een baptistengemeente in Dordrecht.
+Maarten (geb. 1994) studeerde theologie aan de Christelijke Hogeschool Ede.
+Na zijn bachelor vervolgde hij zijn studie aan het Baptistenseminarium en de Vrije Universiteit Amsterdam.
+Gespecialiseerd in baptistisch-evangelisch leiderschap, behaalde hij zijn master in theologie en religiewetenschappen.
+Momenteel is Maarten fulltime predikant bij de Kruiskerk, een Baptistengemeente in Dordrecht.
 
 ## Leonard de Ruiter MSc
 
