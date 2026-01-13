@@ -78,7 +78,7 @@ In de tabellen hieronder wordt een overzicht gegeven van de Hebreeuwse tekens me
 
 ### Vocalen
 
-| Karakter | Naam | Unicode Braille | ASCII Braille | Braillepunten |
+| Karakter | Naam | Unicode Braille | ASCII Braille | Braillepunten | Opmerking |
 | ---------: | ---------------- | ------- | ----- | ------ |
 | ְ | Sjwa | ⠄ | `'` | 3 |
 | ִ | Chirek | ⠊ | `i` | 24 |
@@ -97,10 +97,10 @@ In de tabellen hieronder wordt een overzicht gegeven van de Hebreeuwse tekens me
 
 | Karakter | Naam | Unicode Braille | ASCII Braille | Braillepunten |
 | -------- | ----------- | --------------- | ----- | ------------- |
-| יִ | Chierek-jod | ⠔ | `9` | 35 |
-| יֵ | Tseree-jod | ⠼ | `#` | 3456 |
-| וֹ | Cholem-wav | ⠪ | `[` | 246 |
-| וּ | Sjoeroek | ⠬ | `+` | 346 |
+| יִ | Chierek-jod | ⠔ | `9` | 35 | Verlaagde Chirek |
+| יֵ | Tseree-jod | ⠼ | `#` | 3456 | Combinatie Tseree en verlaagde jod |
+| וֹ | Cholem-wav | ⠪ | `[` | 246 | Gespiegelde Cholem |
+| וּ | Sjoeroek | ⠬ | `+` | 346 | Gespiegelde Kiboets |
 
 > [!NOTE]
 > De letters *Alef* en *Hee* worden niet samengetrokken als ze als leesmoeders worden gebruikt.
