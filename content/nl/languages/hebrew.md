@@ -78,8 +78,8 @@ In de tabellen hieronder wordt een overzicht gegeven van de Hebreeuwse tekens me
 
 ### Vocalen
 
-| Karakter | Naam | Unicode Braille | ASCII Braille | Braillepunten | Opmerking |
-| ---------: | ---------------- | ------- | ----- | ------ | ----------------- |
+| Karakter | Naam | Unicode Braille | ASCII Braille | Braillepunten |
+| ---------: | ---------------- | ------- | ----- | ------ |
 | ְ | Sjwa | ⠄ | `'` | 3 |
 | ִ | Chirek | ⠊ | `i` | 24 |
 | ֵ | Tseree | ⠌ | `/` | 34 |
@@ -95,8 +95,8 @@ In de tabellen hieronder wordt een overzicht gegeven van de Hebreeuwse tekens me
 > [!NOTE]
 > Wanneer de letters *Wav* en *Jod* fungeren als leesmoeders in plaats van als medeklinkers, worden ze tot één enkele braille-cel samengetrokken.
 
-| Karakter | Naam | Unicode Braille | ASCII Braille | Braillepunten |
-| -------- | ----------- | --------------- | ----- | ------------- |
+| Karakter | Naam | Unicode Braille | ASCII Braille | Braillepunten | Opmerking |
+| -------- | ----------- | --------------- | ----- | ------------- | ----------------- |
 | יִ | Chierek-jod | ⠔ | `9` | 35 | Verlaagde Chirek |
 | יֵ | Tseree-jod | ⠼ | `#` | 3456 | Combinatie Tseree en verlaagde jod |
 | וֹ | Cholem-wav | ⠪ | `[` | 246 | Gespiegelde Cholem |
