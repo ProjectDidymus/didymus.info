@@ -79,7 +79,7 @@ In de tabellen hieronder wordt een overzicht gegeven van de Hebreeuwse tekens me
 ### Vocalen
 
 | Karakter | Naam | Unicode Braille | ASCII Braille | Braillepunten | Opmerking |
-| ---------: | ---------------- | ------- | ----- | ------ |
+| ---------: | ---------------- | ------- | ----- | ------ | ----------------- |
 | ְ | Sjwa | ⠄ | `'` | 3 |
 | ִ | Chirek | ⠊ | `i` | 24 |
 | ֵ | Tseree | ⠌ | `/` | 34 |
