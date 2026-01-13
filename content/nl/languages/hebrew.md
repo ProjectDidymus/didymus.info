@@ -72,7 +72,7 @@ In de tabellen hieronder wordt een overzicht gegeven van de Hebreeuwse tekens me
 > [!NOTE]
 > De *Beet*, *Kaf*, *Pee* en *Tav* krijgen in braille een apart teken wanneer zij een Dageesj bevatten.
 > Bij andere consonanten (inclusief de *Gimel* en *Dalet*) wordt de *Dageesj* (braillepunt 5, ⠐) vóór de consonant geplaatst.
->
+
 > [!NOTE]
 > De sluitletters in het Hebreeuwse alfabet worden volgens de IHBC-standaard niet onderscheiden van de normale letters.
 
