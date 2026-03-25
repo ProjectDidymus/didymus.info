@@ -27,6 +27,9 @@
   targetPort = 1313
 
 [[plugins]]
+  package = '@gethinode/netlify-plugin-dartsass'
+
+[[plugins]]
   package = 'netlify-plugin-hugo-cache-resources'
 
 [[headers]]
