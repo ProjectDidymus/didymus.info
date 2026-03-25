@@ -11,6 +11,7 @@
         default-src 'none'; \
         font-src 'self' fonts.gstatic.com data:; \
         form-action 'self'; \
+        frame-ancestors 'self' http://localhost:1313 gethinode.com; \
         frame-src *.googletagmanager.com player.cloudinary.com www.youtube-nocookie.com www.youtube.com player.vimeo.com; \
         img-src 'self' *.google-analytics.com *.googletagmanager.com googletagmanager.com ssl.gstatic.com www.gstatic.com data: *.imgix.net *.imagekit.io *.cloudinary.com i.ytimg.com tile.openstreetmap.org i.vimeocdn.com; \
         manifest-src 'self'; \
@@ -26,6 +27,13 @@
     X-Frame-Options = 'SAMEORIGIN'
     X-XSS-Protection = '1; mode=block'
     cache-control = 'max-age=0, no-cache, no-store, must-revalidate '
+
+[[headers]]
+  for = '/admin/*'
+
+  [headers.values]
+    Content-Security-Policy = "            style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' blob: data: https://*.githubusercontent.com; media-src blob:; frame-src blob:; script-src 'self' https://unpkg.com 'unsafe-inline'; connect-src 'self' blob: data: https://unpkg.com https://api.github.com https://www.githubstatus.com; "
+    Cross-Origin-Opener-Policy = 'same-origin-allow-popups'
 
 [[redirects]]
   from = '/en/*'
