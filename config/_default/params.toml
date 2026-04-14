@@ -111,6 +111,3 @@
 
 [modules.bookshop]
   integration = "optional"
-
-[modules.didymus.csp]
-  script-src = ["www.google.com"]
