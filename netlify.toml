@@ -49,7 +49,7 @@
         manifest-src 'self'; \
         media-src 'self'; \
         object-src 'none'; \
-        script-src 'self' *.google-analytics.com *.googletagmanager.com *.analytics.google.com googletagmanager.com tagmanager.google.com player.vimeo.com; \
+        script-src 'self' www.google.com *.google-analytics.com *.googletagmanager.com *.analytics.google.com googletagmanager.com tagmanager.google.com player.vimeo.com; \
         style-src 'self' googletagmanager.com tagmanager.google.com fonts.googleapis.com www.youtube.com 'unsafe-inline'; \
         """
     Permissions-Policy = 'geolocation=(), midi=(), sync-xhr=(), microphone=(), camera=(), magnetometer=(), gyroscope=(), fullscreen=(), payment=() '
