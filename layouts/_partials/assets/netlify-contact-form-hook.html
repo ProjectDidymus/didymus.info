@@ -19,7 +19,6 @@
         method="POST"
         data-netlify="true"
         netlify-honeypot="bot-field"
-        data-netlify-recaptcha="true"
         class="row g-3"
     >
         <div class="hidden" aria-hidden="true">
@@ -37,7 +36,6 @@
             <label for="inputMessage">{{ T "formMessage" }}*</label>
             <textarea id="inputMessage" class="form-control" placeholder="{{ T "formMessage" }}*" aria-label="{{ T "formMessage" }}" name="message" required></textarea>
         </div>
-        <div data-netlify-recaptcha="true"></div>
         <div class="col-12">
             <button class="btn btn-primary" type="submit">{{ T "formSubmit" }}&nbsp;{{ partial "assets/icon.html" (dict "icon" $formSubmitButton) }}</button>
         </div>
