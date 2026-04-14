@@ -56,16 +56,8 @@
     Referrer-Policy = 'strict-origin'
     Strict-Transport-Security = 'max-age=31536000; includeSubDomains; preload'
     X-Content-Type-Options = 'nosniff'
-    X-Frame-Options = 'SAMEORIGIN'
     X-XSS-Protection = '1; mode=block'
     cache-control = 'max-age=0, no-cache, no-store, must-revalidate '
-
-[[headers]]
-  for = '/admin/*'
-
-  [headers.values]
-    Content-Security-Policy = "            style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' blob: data: https://*.githubusercontent.com; media-src blob:; frame-src blob:; script-src 'self' https://unpkg.com 'unsafe-inline'; connect-src 'self' blob: data: https://unpkg.com https://api.github.com https://www.githubstatus.com; "
-    Cross-Origin-Opener-Policy = 'same-origin-allow-popups'
 
 [[redirects]]
   from = '/en/*'
