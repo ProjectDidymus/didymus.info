@@ -1,6 +1,6 @@
 ---
 title: "Aangepaste content"
-draft: true
+draft:
 menu:
   main:
 weight: 40

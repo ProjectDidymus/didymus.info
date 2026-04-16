@@ -1,4 +1,4 @@
-module github.com/gethinode/template
+module github.com/projectDidymus/didymus.info
 
 go 1.20
 

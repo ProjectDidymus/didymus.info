@@ -14,4 +14,4 @@ content_blocks:
     justify: center
 ---
 
-Deze website is nog volop in ontwikkeling. Neem voor meer informatie [contact](/contact) met ons op.
+Deze website is nog volop in ontwikkeling. Neem voor meer informatie [contact]({{% relref "contact" %}}) met ons op.

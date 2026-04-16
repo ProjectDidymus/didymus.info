@@ -21,7 +21,7 @@ Momenteel is Maarten fulltime predikant bij de Kruiskerk, een Baptistengemeente 
 
 ## Leonard de Ruiter MSc
 
-Leonard (geb. 1993) studeerde Kinder- en Jeugdpsychologie aan de Universiteit Leiden. Hij studeert momenteel aan de Theologische Universiteit Apeldoorn. Door een sterke affiniteit met IT ontwikkelde hij zich als autodidact softwareontwikkelaar en werkt hij parttime bij [SEVENP](https://sevenp.nl/). Hij heeft bijgedragen aan diverse open-source projecten, zoals [de NVDA schermlezer](https://www.nvaccess.org/) en de [liblouis](https://liblouis.io/) braillevertaler. Daarnaast heeft hij  binnen de Nederlandse Braille Autoriteit bijgedragen aan een [achtpunts braillestandaard](https://braille-autoriteit.org/standaarden/achtpuntsbraille/) voor het Nederlandse taalgebied.
+Leonard (geb. 1993) <!-- is vanaf zijn geboorte blind  -->en studeerde Kinder- en Jeugdpsychologie aan de Universiteit Leiden. Hij studeert momenteel aan de Theologische Universiteit Apeldoorn vanuit zijn verlangen om predikant te worden binnen de Christelijke Gereformeerde Kerken. Door een sterke affiniteit met IT ontwikkelde hij zich als autodidact softwareontwikkelaar en werkt hij parttime bij [SEVENP](https://sevenp.nl/). Hij heeft bijgedragen aan diverse open-source projecten, zoals [de NVDA schermlezer](https://www.nvaccess.org/) en de [liblouis](https://liblouis.io/) braillevertaler. Daarnaast heeft hij  binnen de Nederlandse Braille Autoriteit bijgedragen aan een [achtpunts braillestandaard](https://braille-autoriteit.org/standaarden/achtpuntsbraille/) voor het Nederlandse taalgebied.
 
 ## Dr. Marco Rotman
 

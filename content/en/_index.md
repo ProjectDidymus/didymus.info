@@ -14,4 +14,4 @@ content_blocks:
     justify: center
 ---
 
-This website is still under active development. For more information, please [contact](/contact) us.
+This website is still under active development. For more information, please [contact]({{% relref "contact" %}}) us.

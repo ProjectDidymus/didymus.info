@@ -1,9 +1,0 @@
----
-title: "Aramees"
-date: 2025-12-01
-draft: true
-menu:
-  main:
-    parent: "Grondtalen"
-weight: 3
----
