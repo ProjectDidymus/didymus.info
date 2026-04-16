@@ -31,7 +31,7 @@ Voor de grondtalen geldt het volgende:
 Dedicon biedt op hun website [informatie](https://www.dedicon.nl/scholen/Oud-grieks-in-braille) aan over het studeren van Grieks.
 Het goede nieuws is dat Dedicon uitstekend in staat is om boeken met daarin Koinè Grieks toegankelijk te maken. Voor het lezen van Grieks braille verwijzen we je graag naar [onze eigen informatiepagina over het Grieks]({{% ref "/languages/greek" %}}).
 Helaas produceert Dedicon al geruime tijd geen woordenboeken meer, zoals te lezen valt in [het overzicht van niet-produceerbare boeken](https://educatief.dedicon.nl/niet-produceerbaar).
-Eerder deden ze dit wel, en produceerden ze onder andere het [Greek-English lexicon of the New Testament and other early Christian literature](https://educatief.dedicon.nl/p198953.html) van William Danker. Maar ==let op==: dit woordenboek beschikt niet over accenten, spiritus asper, etc. Bovendien zitten er de nodige fouten in.
+Eerder deden ze dit wel, en produceerden ze onder andere het [Greek-English lexicon of the New Testament and other early Christian literature](https://educatief.dedicon.nl/p198953.html) van Bauer en Danker. Maar ==let op==: dit woordenboek beschikt niet over accenten. Bovendien zitten er de nodige fouten in.
 
 ### Hebreeuws
 
