@@ -8,26 +8,8 @@ updates:
     schedule:
       interval: "weekly"
     open-pull-requests-limit: 10
-    groups:
-      github-actions:
-        patterns:
-          - "*"
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "daily"
     versioning-strategy: increase
-    groups:
-      npm-production:
-        dependency-type: "production"
-        update-types:
-          - "minor"
-          - "patch"
-      npm-development:
-        dependency-type: "development"
-        update-types:
-          - "minor"
-          - "patch"
-      npm-major:
-        update-types:
-          - "major"
