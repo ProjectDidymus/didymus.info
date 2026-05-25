@@ -20,6 +20,8 @@ github.com/gethinode/hinode/v2 v2.9.0 h1:32IlhKD3IB+NqZoTLQp/MKjCLbFwbyx/Jb9NtKY
 github.com/gethinode/hinode/v2 v2.9.0/go.mod h1:b3YdnJMkritn6mfgXnQ1YXJTL/w6DWh+ngnzwi+QXiA=
 github.com/gethinode/hinode/v2 v2.10.0 h1:YSYNInk29nAklN1WF7t/Y4Koe4e/66EgoqaDN0rc8Tg=
 github.com/gethinode/hinode/v2 v2.10.0/go.mod h1:b3YdnJMkritn6mfgXnQ1YXJTL/w6DWh+ngnzwi+QXiA=
+github.com/gethinode/hinode/v2 v2.11.1 h1:MlgrmdElsAS0yeD8sLnjGmtjAc8uSacIgydENtrZPps=
+github.com/gethinode/hinode/v2 v2.11.1/go.mod h1:eFb6+zQ4ODsXwZ56MM03bCDzm3/QGBHlle1bofbslZ0=
 github.com/gethinode/mod-blocks v1.22.0 h1:/1Hpr4Ogeq9tesNKzeCPatol6bKZt/X5ULKDgBTk100=
 github.com/gethinode/mod-blocks v1.22.0/go.mod h1:7a0rJUYtWi9HJZ6sf/7aiuZiVnMxh/r8ZuArv0ELlbM=
 github.com/gethinode/mod-blocks v1.22.1 h1:akTuUmBbC81SvgfVIRXCu/g4UuelEYnlhjYNVmyE2UM=
@@ -32,6 +34,10 @@ github.com/gethinode/mod-csp v1.0.9 h1:Bt4agpC/Wy56Gabt8Ox2LbNoj2yrSYXCzY2o69D3d
 github.com/gethinode/mod-csp v1.0.9/go.mod h1:Nb22QMicoUHgZQUKP5TCgVrSI8K3KU7jLuLBShmotjg=
 github.com/gethinode/mod-flexsearch/v4 v4.1.0 h1:Xbrf0ybwO91r2gN2hp5RTffycD0qJh+Gx6gmTjTJ0c8=
 github.com/gethinode/mod-flexsearch/v4 v4.1.0/go.mod h1:WO5lHVeYkv6ief/TSAxOYfzk0KYaqEUJU8B2/imJWTA=
+github.com/gethinode/mod-flexsearch/v4 v4.2.0 h1:CmDrUoqnItOztLMt/jW58iPqjeG3PDSMZBzilcF6SLU=
+github.com/gethinode/mod-flexsearch/v4 v4.2.0/go.mod h1:DJStMnONdgc7KTAmngR8nQi4O0adPv/GPmaKorT9egY=
+github.com/gethinode/mod-flexsearch/v4 v4.3.0 h1:NdXcFaE4L5a6wbcmMRyUgLEkLFmcGDF7c6MHwzBcJu8=
+github.com/gethinode/mod-flexsearch/v4 v4.3.0/go.mod h1:DJStMnONdgc7KTAmngR8nQi4O0adPv/GPmaKorT9egY=
 github.com/gethinode/mod-fontawesome/v5 v5.1.0 h1:u3ntQMe1fGntcrljxrbZXA9Q0z2WHlmbPT0sL+Uw1o8=
 github.com/gethinode/mod-fontawesome/v5 v5.1.0/go.mod h1:b9nG1pel6LIWiNyb0kZAmyhLo2rrx4dvG2xyoD8tDlk=
 github.com/gethinode/mod-fontawesome/v5 v5.1.1 h1:zYjqzFMj2JdYyvRrigIAs8+LIspQ0XSRmi9f1orQm0Q=
