@@ -63,6 +63,19 @@ Site data lives in `data/`: `data/netlify.toml` supplies the Netlify `[build]` b
 
 To add a page: create `content/nl/<section>/<slug>.md` (Dutch is the default language; copy front matter from an existing page in the same section). An English translation is optional at `content/en/<section>/<slug>.md`. New pages must pass `npm run lint:markdown`.
 
+### Content editing (Sveltia CMS)
+
+Non-technical editing goes through [Sveltia CMS](https://sveltiacms.app) at `static/admin/` (`index.html` loads the CDN bundle; `config.yml` is the schema). It is Git-backed on the **GitHub backend** (repo `projectdidymus/didymus.info`), committing to the **`beta`** branch — so the review gate is branch-based: edits land on `beta` → preview at `beta.didymus.info` → a human opens a `beta → main` PR for production. `config.yml` uses `i18n.structure: multiple_folders` with `folder: content`, so collection paths resolve to `content/nl/<section>/…` and `content/en/<section>/…`. The `contact` section is intentionally **not** a CMS collection — it is a Netlify Form. Sveltia's in-CMS editorial workflow (`publish_mode`) is not implemented until its 1.0, so `backend.squash_merges` is currently inert (harmless, future-proofing).
+
+**Auth** is Netlify's native GitHub OAuth broker — already configured and live for the site, which is why `config.yml` deliberately has **no `base_url`**. A self-hosted `sveltia-cms-auth` worker + explicit `base_url` is only a portability fallback (needed if the site ever leaves Netlify); most sites, including this one, don't need it. GitHub client-side PKCE would remove the broker entirely but is not yet available.
+
+### Netlify site facts
+
+- Netlify project `projectdidymus`, plan **Pro**; production deploys from `main`, `beta` is the CMS/preview branch (`beta.didymus.info`). Netlify **Forms** is enabled.
+- No site access control today (`/admin` is publicly loadable); Netlify team-login / SAML SSO site gating requires Enterprise and is unavailable on Pro. To restrict `/admin` to SEVENP staff, the Netlify-native option is the **Auth0 extension** (Auth0 federates to Entra) — note it only gates the front door and adds a second login on top of the CMS's GitHub OAuth.
+- Netlify access-control settings (Identity, Password Protection, SSO, OAuth providers) are **dashboard-only** — no public API/CLI/MCP to read or set them, so don't probe for that state; hand configuration steps to a maintainer.
+- Relevant Claude Code skills when working here: `sveltia-cms` and `hugo`, plus the `netlify-skills` plugin (notably `netlify-access-control`, `netlify-config`, `netlify-forms`).
+
 ### Netlify deploy flow
 
 `netlify.toml` is **auto-generated** — the comment at the top warns not to edit it. It is produced by Hugo rendering the `headers` segment (see `[segments.headers]` in `hugo.toml`, output formats `netlify` + `server`) via `npm run build:headers:prod`, which copies `prebuild-headers-prod/netlify.toml` to the repo root. Same flow for `server.toml` (dev). The rendered output is data-driven, so:
