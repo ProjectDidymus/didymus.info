@@ -1,12 +1,12 @@
----
-title: "Project Members"
-description: "These members are currently involved with Project Didymus."
-date: 2025-12-01
-menu:
-  main:
-    parent: "About"
-    weight: 3
----
++++
+title = "Project Members"
+description = "These members are currently involved with Project Didymus."
+date = "2025-12-01"
+
+[menu.main]
+parent = "About"
+weight = 3
++++
 
 ## Stieneke Roelofsen
 

@@ -1,8 +1,9 @@
----
-title: "About"
-menu:
-  main:
-    weight: 20
-    params:
-      alias: true
----
++++
+title = "About"
+
+[menu.main]
+weight = 20
+
+[menu.main.params]
+alias = true
++++

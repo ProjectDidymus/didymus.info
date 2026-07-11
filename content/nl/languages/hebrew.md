@@ -1,15 +1,16 @@
----
-title: "Hebreeuws"
-description: Op deze pagina is meer te vinden over het Hebreeuws, met name over Hebreeuws braille.
-tags:
-- Braille
-- Grondtalen
-date: 2025-12-10
-menu:
-  main:
-   parent: "Grondtalen"
-weight: 2
----
++++
+title = "Hebreeuws"
+description = "Op deze pagina is meer te vinden over het Hebreeuws, met name over Hebreeuws braille."
+tags = [
+    "Braille",
+    "Grondtalen",
+]
+date = "2025-12-10"
+weight = 2
+
+[menu.main]
+parent = "Grondtalen"
++++
 
 ## Hoe werkt Hebreeuws braille?
 

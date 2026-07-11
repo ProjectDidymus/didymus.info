@@ -1,5 +1,5 @@
----
-title: "Ervaringen"
-draft: true
-weight: 30
----
++++
+title = "Ervaringen"
+draft = true
+weight = 30
++++

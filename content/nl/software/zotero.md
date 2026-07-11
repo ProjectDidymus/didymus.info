@@ -1,12 +1,12 @@
----
-title: "Zotero"
-date: 2025-12-18
-description: Zotero is een hulpprogramma voor het verzamelen, organiseren en citeren van bronnen bij studie en onderzoek. Studenten en docenten kunnen er boeken, artikelen en websites in opslaan en automatisch correcte literatuurverwijzingen en bibliografieën mee maken.
-menu:
-  main:
-    parent: "Software & apparatuur"
-weight: 1
----
++++
+title = "Zotero"
+date = "2025-12-18"
+description = "Zotero is een hulpprogramma voor het verzamelen, organiseren en citeren van bronnen bij studie en onderzoek. Studenten en docenten kunnen er boeken, artikelen en websites in opslaan en automatisch correcte literatuurverwijzingen en bibliografieën mee maken."
+weight = 1
+
+[menu.main]
+parent = "Software & apparatuur"
++++
 
 {{< button tooltip="Meer informatie op de Zotero website" href="https://www.zotero.org/">}}Bezoek de Zotero website{{< /button >}}
 

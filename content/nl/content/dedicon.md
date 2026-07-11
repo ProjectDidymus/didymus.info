@@ -1,12 +1,12 @@
----
-title: "Stichting Dedicon"
-date: 2025-12-18
-Description: Deze pagina bevat meer informatie over de werkzaamheden van Stichting Dedicon.
-menu:
-  main:
-    parent: "Aangepaste content"
-weight: 1
----
++++
+title = "Stichting Dedicon"
+date = "2025-12-18"
+description = "Deze pagina bevat meer informatie over de werkzaamheden van Stichting Dedicon."
+weight = 1
+
+[menu.main]
+parent = "Aangepaste content"
++++
 
 [Stichting Dedicon](https://www.dedicon.nl/) is namens het ministerie van Onderwijs, Cultuur en Wetenschap belast met het toegankelijk maken van studiemateriaal voor Nederlandse leerlingen en studenten met een visuele beperking. Om hier gebruik van te maken, dien je student te zijn en in bezit te zijnvan een [verklaring leesbeperking](https://educatief.dedicon.nl/verklaring-leesbeperking).
 

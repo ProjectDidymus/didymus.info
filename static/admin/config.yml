@@ -35,6 +35,7 @@ singletons:
 collections:
   - name: about
     label: Over
+    format: toml-frontmatter
     folder: content
     path: "about/{{slug}}"
     create: false
@@ -54,6 +55,10 @@ collections:
         name: date
         widget: datetime
         default: "{{now}}"
+        # `format` controls the stored value; without it Sveltia's smol-toml emits a
+        # bare datetime with a `.000` suffix Hugo can mishandle (sveltia-cms#382).
+        # Force a date-only string so TOML output stays Hugo-parseable.
+        format: "YYYY-MM-DD"
         date_format: "YYYY-MM-DD"
       - label: Concept
         name: draft
@@ -79,6 +84,7 @@ collections:
         default: false
   - name: languages
     label: Grondtalen
+    format: toml-frontmatter
     folder: content
     path: "languages/{{slug}}"
     create: true
@@ -89,6 +95,7 @@ collections:
     fields: *content_fields
   - name: content
     label: Aangepaste Content
+    format: toml-frontmatter
     folder: content
     path: "content/{{slug}}"
     create: false
@@ -99,6 +106,7 @@ collections:
     fields: *content_fields
   - name: software
     label: Software & apparatuur
+    format: toml-frontmatter
     folder: content
     path: "software/{{slug}}"
     create: false
@@ -109,6 +117,7 @@ collections:
     fields: *content_fields
   - name: testimonials
     label: Ervaringen
+    format: toml-frontmatter
     folder: content
     path: "testimonials/{{slug}}"
     create: false

@@ -1,6 +1,6 @@
----
-title: "Grondtalen"
-menu:
-  main:
-weight: 50
----
++++
+title = "Grondtalen"
+weight = 50
+
+[menu.main]
++++

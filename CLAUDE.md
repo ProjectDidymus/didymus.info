@@ -74,7 +74,7 @@ Non-technical editing goes through [Sveltia CMS](https://sveltiacms.app) at `sta
 - Netlify project `projectdidymus`, plan **Pro**; production deploys from `main`, `beta` is the CMS/preview branch (`beta.didymus.info`). Netlify **Forms** is enabled.
 - No site access control today (`/admin` is publicly loadable); Netlify team-login / SAML SSO site gating requires Enterprise and is unavailable on Pro. To restrict `/admin` to SEVENP staff, the Netlify-native option is the **Auth0 extension** (Auth0 federates to Entra) — note it only gates the front door and adds a second login on top of the CMS's GitHub OAuth.
 - Netlify access-control settings (Identity, Password Protection, SSO, OAuth providers) are **dashboard-only** — no public API/CLI/MCP to read or set them, so don't probe for that state; hand configuration steps to a maintainer.
-- Relevant Claude Code skills when working here: `sveltia-cms` and `hugo`, plus the `netlify-skills` plugin (notably `netlify-access-control`, `netlify-config`, `netlify-forms`).
+- Relevant Claude Code skills when working here: the `netlify-skills` plugin (notably `netlify-access-control`, `netlify-config`, `netlify-forms`).
 
 ### Netlify deploy flow
 

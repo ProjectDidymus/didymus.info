@@ -1,9 +1,9 @@
----
-title: "Theologen"
-date: 2025-12-01
-draft: true
-menu:
-  main:
-    parent: "Ervaringen"
-    weight: 3
----
++++
+title = "Theologen"
+date = "2025-12-01"
+draft = true
+
+[menu.main]
+parent = "Ervaringen"
+weight = 3
++++

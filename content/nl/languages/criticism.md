@@ -1,9 +1,9 @@
----
-title: "Tekstkritiek"
-date: 2025-12-01
-draft: true
-menu:
-  main:
-    parent: "Grondtalen"
-weight: 4
----
++++
+title = "Tekstkritiek"
+date = "2025-12-01"
+draft = true
+weight = 4
+
+[menu.main]
+parent = "Grondtalen"
++++

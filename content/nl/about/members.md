@@ -1,12 +1,12 @@
----
-title: "Projectleden"
-description: Deze personen zijn momenteel betrokken bij Project Didymus.
-date: 2025-12-01
-menu:
-  main:
-    parent: "Over"
-weight: 3
----
++++
+title = "Projectleden"
+description = "Deze personen zijn momenteel betrokken bij Project Didymus."
+date = "2025-12-01"
+weight = 3
+
+[menu.main]
+parent = "Over"
++++
 
 ## Stieneke Roelofsen
 

@@ -1,12 +1,12 @@
----
-title: "Project"
-description: This page offers an overview of the vision, aims and current activities of Project Didymus.
-date: 2025-12-01
-menu:
-  main:
-    parent: "About"
-    weight: 1
----
++++
+title = "Project"
+description = "This page offers an overview of the vision, aims and current activities of Project Didymus."
+date = "2025-12-01"
+
+[menu.main]
+parent = "About"
+weight = 1
++++
 
 ## Rationale
 

@@ -1,7 +1,8 @@
----
-title: "Software & apparatuur"
-draft:
-menu:
-  main:
-weight: 60
----
++++
+title = "Software & apparatuur"
+weight = 60
+
+[draft]
+
+[menu.main]
++++

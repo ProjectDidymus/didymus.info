@@ -1,7 +1,8 @@
----
-title: "Aangepaste content"
-draft:
-menu:
-  main:
-weight: 40
----
++++
+title = "Aangepaste content"
+weight = 40
+
+[draft]
+
+[menu.main]
++++

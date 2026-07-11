@@ -1,7 +1,5 @@
 {
   "enabledPlugins": {
-    "sveltia-cms@claude-skills": true,
-    "hugo@claude-skills": true,
     "netlify-skills@claude-plugins-official": true
   }
 }
