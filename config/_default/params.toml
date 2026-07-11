@@ -111,3 +111,15 @@
 
 [modules.bookshop]
   integration = "optional"
+
+# CSP sources required by Sveltia CMS (static/admin). See
+# https://sveltiacms.app/en/docs/security and the GitHub backend docs.
+# blob: is added to the CSP vocabulary in data/csp_definitions.toml.
+[modules.sveltia.csp]
+  script-src = ["unpkg.com"]
+  connect-src = ["blob:", "data:", "unpkg.com", "api.github.com", "www.githubstatus.com"]
+  img-src = ["blob:", "avatars.githubusercontent.com"]
+  media-src = ["blob:"]
+  frame-src = ["blob:"]
+  style-src = ["fonts.googleapis.com"]
+  font-src = ["fonts.gstatic.com"]

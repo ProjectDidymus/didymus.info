@@ -20,6 +20,13 @@ defaultContentLanguage = "nl"
 defaultContentLanguageInSubdir = false
 
 [outputFormats]
+  [outputFormats.server]
+    mediaType = "application/toml"
+    baseName = "server"
+    isPlainText = true
+    notAlternative = true
+    permalinkable = true
+    root = true
   [outputFormats.netlify]
     mediaType = "application/toml"
     baseName = "netlify"
@@ -44,7 +51,7 @@ defaultContentLanguageInSubdir = false
 delimiter = ""
 
 [outputs]
-home = ["HTML", "RSS", "REDIR", "netlify"]
+home = ["HTML", "RSS", "REDIR", "netlify", "server"]
 
 [build]
   writeStats = true

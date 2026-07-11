@@ -39,17 +39,17 @@
     Access-Control-Allow-Origin = '*'
     Content-Security-Policy = """
         base-uri 'self'; \
-        connect-src 'self' *.analytics.google.com *.google.com *.google-analytics.com *.googletagmanager.com; \
+        connect-src 'self' *.analytics.google.com *.google.com *.google-analytics.com *.googletagmanager.com blob: data: unpkg.com api.github.com www.githubstatus.com; \
         default-src 'none'; \
         font-src 'self' fonts.gstatic.com data:; \
         form-action 'self'; \
         frame-ancestors 'self'; \
-        frame-src *.googletagmanager.com player.cloudinary.com www.youtube-nocookie.com www.youtube.com player.vimeo.com; \
-        img-src 'self' *.google-analytics.com *.googletagmanager.com googletagmanager.com ssl.gstatic.com www.gstatic.com data: *.imgix.net *.imagekit.io *.cloudinary.com i.ytimg.com tile.openstreetmap.org i.vimeocdn.com; \
+        frame-src *.googletagmanager.com player.cloudinary.com www.youtube-nocookie.com www.youtube.com blob: player.vimeo.com; \
+        img-src 'self' *.google-analytics.com *.googletagmanager.com googletagmanager.com ssl.gstatic.com www.gstatic.com data: *.imgix.net *.imagekit.io *.cloudinary.com i.ytimg.com tile.openstreetmap.org blob: avatars.githubusercontent.com i.vimeocdn.com; \
         manifest-src 'self'; \
-        media-src 'self'; \
+        media-src 'self' blob:; \
         object-src 'none'; \
-        script-src 'self' *.google-analytics.com *.googletagmanager.com *.analytics.google.com googletagmanager.com tagmanager.google.com player.vimeo.com; \
+        script-src 'self' *.google-analytics.com *.googletagmanager.com *.analytics.google.com googletagmanager.com tagmanager.google.com unpkg.com player.vimeo.com; \
         style-src 'self' googletagmanager.com tagmanager.google.com fonts.googleapis.com www.youtube.com 'unsafe-inline'; \
         """
     Permissions-Policy = 'geolocation=(), midi=(), sync-xhr=(), microphone=(), camera=(), magnetometer=(), gyroscope=(), fullscreen=(), payment=() '
