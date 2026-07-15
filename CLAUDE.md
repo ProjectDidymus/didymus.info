@@ -45,7 +45,7 @@ Hugo itself is installed via the `hugo-extended` npm package — run it through 
 
 ### Hugo + Hinode + Go modules
 
-Site content and config live in this repo; theme/behavior comes from Hugo modules listed in `go.mod`. Key imports: `github.com/gethinode/hinode/v2` (theme) and `github.com/gethinode/mod-blocks` (content blocks). All modules are vendored into `_vendor/` — **do not edit `_vendor/` directly**; change `go.mod` and run `npm run mod:vendor`.
+Site content and config live in this repo; theme/behavior comes from Hugo modules listed in `go.mod`. Key imports: `github.com/gethinode/hinode/v3` (theme) and `github.com/gethinode/mod-blocks/v2` (content blocks). All modules are vendored into `_vendor/` — **do not edit `_vendor/` directly**; change `go.mod` and run `npm run mod:vendor`.
 
 Config hierarchy (`config/_default/`):
 
