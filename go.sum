@@ -12,12 +12,16 @@ github.com/gethinode/hinode/v3 v3.6.2 h1:ddiD01PBx4gWHTst31p3tXO9mgiuzHVr2FqIdab
 github.com/gethinode/hinode/v3 v3.6.2/go.mod h1:YK0S5jwc71tlVACTxqgAh1VCxn7JEKtDuP3AC6q6Hj0=
 github.com/gethinode/hinode/v3 v3.16.3 h1:Zy2rG8RppxLM7k7hnUC6Do2tWHlrxRCW7Q2QYHJ4EuI=
 github.com/gethinode/hinode/v3 v3.16.3/go.mod h1:PqmewfbVBnwMVs6C4ZAKxjt9pYTAsOz+YF9gznJKHsk=
+github.com/gethinode/hinode/v3 v3.19.1 h1:NJO3sVyo5k3qlui6EuYMV7KCG0MT+8sLx03yWYJ1Yk8=
+github.com/gethinode/hinode/v3 v3.19.1/go.mod h1:AAIoKEtwZGLcUQA0l+G/RKs9XPLX1TU61GfTYxZ+Yrs=
 github.com/gethinode/mod-blocks/v2 v2.1.4 h1:HV6S8xDQRZ3RaRdpXOPzyULIp53XQZJHWURLGTMBy1Y=
 github.com/gethinode/mod-blocks/v2 v2.1.4/go.mod h1:z+0Rg+I0naJf7VOy9dDuo8FX1dB5bPuMmbWT1QmBFhg=
 github.com/gethinode/mod-blocks/v2 v2.2.5 h1:8glKSX7OENSgbRAp+Bc1JL68Ix3DSWcHWh5dlsNrNsk=
 github.com/gethinode/mod-blocks/v2 v2.2.5/go.mod h1:1a4A2RrNSEoqgUjJoNPc2T+JtfPe0GvjHNrxjXauWCA=
 github.com/gethinode/mod-blocks/v2 v2.3.5 h1:9NCaMM35Px11iiN6ZXaDKYkj2VMUMeslcyV3nZon/Ng=
 github.com/gethinode/mod-blocks/v2 v2.3.5/go.mod h1:jasWmqif6QIEWQXckSIOPxB5fGZcJZENfh728ZUkIng=
+github.com/gethinode/mod-blocks/v2 v2.3.6 h1:xWvoWBfMXKTjsFuVh3sGZK80uQF1gl6gGt8w4GsZHiE=
+github.com/gethinode/mod-blocks/v2 v2.3.6/go.mod h1:/IfHiD5PCitH3IrpeMF/Pse/N+AbxkP8AYyIja8oJzk=
 github.com/gethinode/mod-bootstrap v1.3.7 h1:rbjOg//q7dbsM+TkDQLsyk9LKv93D1RUjtcSkvV55UU=
 github.com/gethinode/mod-bootstrap v1.3.7/go.mod h1:CxrYCFzKtBMz3YWG5i/d5jHKCgvUo60NFcCmz2mxCjQ=
 github.com/gethinode/mod-bootstrap v1.5.0 h1:vpcbnNA315kClDeWviL/4yWKt1k1oaxI7Z8HxcoHnpQ=
