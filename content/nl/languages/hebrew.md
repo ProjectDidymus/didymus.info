@@ -100,7 +100,7 @@ In de tabellen hieronder wordt een overzicht gegeven van de Hebreeuwse tekens me
 | -------- | ----------- | --------------- | ----- | ------------- | ----------------- |
 | ִי | Chierek-jod | ⠔ | `9` | 35 | Verlaagde Chirek |
 | ֵי | Tseree-jod | ⠼ | `#` | 3456 | Combinatie Tseree en verlaagde jod |
-| ֹו | Cholem-wav | ⠪ | `[` | 246 | Gespiegelde Cholem |
+| וֹ | Cholem-wav | ⠪ | `[` | 246 | Gespiegelde Cholem |
 | וּ | Sjoeroek | ⠬ | `+` | 346 | Gespiegelde Kiboets |
 
 > [!NOTE]
