@@ -83,7 +83,9 @@ Non-technical editing goes through [Sveltia CMS](https://sveltiacms.app) at `sta
 - change Netlify build settings (Hugo/Node/Dart Sass versions, plugins) → edit `data/netlify.toml`
 - change headers/CSP → override the mod-csp data in `data/server.toml` (defaults live in `_vendor/github.com/gethinode/mod-csp/` — never edit `_vendor`)
 
-Then run `npm run build:headers` and **commit** the regenerated `netlify.toml` + `config/_default/server.toml` (both are committed files). Keep `HUGO_VERSION` in `data/netlify.toml` in sync with the `hugo-extended` version in `package.json`.
+Then run `npm run build:headers` and **commit** the regenerated `netlify.toml` + `config/_default/server.toml` (both are committed files).
+
+`HUGO_VERSION` is deliberately **absent** from `data/netlify.toml` — do not add it back. The build runs `hugo` from an npm script, which resolves to `node_modules/.bin/hugo` supplied by the `hugo-extended` dependency, so a Hugo binary installed by Netlify would be downloaded and never used. `package.json` is the single source of truth for the Hugo version. Upstream Hinode omits it for the same reason. Pinning it also made builds fail whenever Netlify's `mise` hit an unauthenticated GitHub API rate limit while resolving the release tag.
 
 Netlify build runs `npm run build` (prod) and applies two plugins: `@gethinode/netlify-plugin-dartsass` and `netlify-plugin-hugo-cache-resources`.
 
