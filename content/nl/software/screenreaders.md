@@ -2,7 +2,7 @@
 title = "Schermleessoftware"
 date = "2025-12-01"
 draft = true
-weight = 3
+weight = 4
 
 [menu.main]
 parent = "Software & apparatuur"

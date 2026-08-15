@@ -6,7 +6,7 @@ date = "2025-12-01"
 tags = [
     "Grondtalen",
 ]
-weight = 4
+weight = 5
 
 [menu.main]
 parent = "Software & apparatuur"

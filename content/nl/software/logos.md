@@ -2,7 +2,7 @@
 title = "Logos"
 date = "2025-12-01"
 draft = true
-weight = 2
+weight = 3
 
 [menu.main]
 parent = "Software & apparatuur"
