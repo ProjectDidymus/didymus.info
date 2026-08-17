@@ -2,7 +2,6 @@
 title = "Dictymus"
 date = "2026-08-15"
 description = "Dictymus is een gratis en toegankelijk woordenboekprogramma voor de grondtalen van de Bijbel, ontwikkeld binnen Project Didymus. Het is vanaf de basis ontworpen voor blinde en slechtziende gebruikers en werkt daardoor uitstekend met schermleessoftware."
-draft = true
 tags = [
     "Grondtalen",
 ]
@@ -12,7 +11,8 @@ weight = 1
 parent = "Software & apparatuur"
 +++
 
-{{< button tooltip="Download Dictymus vanaf GitHub" href="https://github.com/ProjectDidymus/dictymus/releases/latest" >}}Download Dictymus{{< /button >}}
+{{< button tooltip="Download het installatieprogramma van Dictymus voor Windows" href="https://github.com/ProjectDidymus/dictymus/releases/latest/download/dictymus_setup-x64.exe" >}}Dictymus downloaden voor Windows{{< /button >}}
+{{< button color="secondary" tooltip="Download Dictymus als draagbaar zip-bestand voor Windows" href="https://github.com/ProjectDidymus/dictymus/releases/latest/download/dictymus-x64.zip" >}}Draagbare versie (zip){{< /button >}}
 
 Dictymus is een woordenboekprogramma voor de grondtalen van de Bijbel: Hebreeuws en Grieks.
 Het programma is binnen Project Didymus ontwikkeld en is gratis en open source.
@@ -36,7 +36,9 @@ De toegankelijkheid wordt bij iedere wijziging van de software automatisch getes
 ## Downloaden
 
 Dictymus is beschikbaar voor Windows, met de gebruikersinterface in het Nederlands en Engels.
-Je downloadt het programma gratis via de knop bovenaan deze pagina.
+Je downloadt het programma gratis via de knoppen bovenaan deze pagina.
+Kies het installatieprogramma als je Dictymus wilt installeren, of de draagbare versie als je het programma zonder installatie wilt gebruiken, bijvoorbeeld vanaf een usb-stick.
+Beide downloads zijn bedoeld voor Windows op een 64-bits processor (x64); [bekijk meer downloadmogelijkheden op GitHub](https://github.com/ProjectDidymus/dictymus/releases/latest) voor de overige versies.
 Dictymus is volop in ontwikkeling en controleert zelf automatisch op updates, zodat je altijd met de nieuwste versie werkt.
 Meer informatie en de broncode vind je op de [GitHub-pagina van Dictymus](https://github.com/ProjectDidymus/dictymus/).
 
