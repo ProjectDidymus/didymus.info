@@ -16,7 +16,7 @@ Stieneke (b. 1998) finished her Bachelor of Theology at the Christian University
 
 Maarten (b. 1994) studied theology at the Christian University of Applied Sciences in Ede. After finishing his bachelor's degree, he continued his studies at the Baptist Seminary and the Vrije Universiteit Amsterdam. Specializing in Baptistic and Evangelical leadership, he earned his master's degree in theology and religious studies. Currently, Maarten serves as a full-time pastor at the Kruiskerk, a Baptist congregation in Dordrecht.
 
-## Leonard de Ruiter MSc
+## Leonard de Ruijter MSc
 
 Leonard (b. 1993) has been blind from birth and studied Child and Adolescent Psychology at Leiden University. He is currently studying at the Theological University of Apeldoorn out of his desire to become a minister within the Dutch Christian Reformed Churches. Due to a strong affinity with IT, he has developed as a software developer and is employed part time at [SEVENP](https://sevenp.nl/). He has contributed to various open-source projects, such as [the NVDA screen reader](https://www.nvaccess.org/) and the [liblouis](https://liblouis.io/) braille translator. In addition, he has contributed to an [eight-dot braille standard](https://braille-autoriteit.org/standaarden/achtpuntsbraille/) for the Dutch language area within the Dutch Braille Authority.
 
