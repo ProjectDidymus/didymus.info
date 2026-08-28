@@ -39,6 +39,12 @@ npm run mod:update     # upgrade all Hugo modules, re-vendor, tidy
 npm run mod:tidy
 ```
 
+Excel download of a page's tables (Python via `uv`, not part of the build; rerun and commit the `.xlsx` whenever the tables change):
+
+```bash
+uv run tools/md-tables-to-xlsx.py content/nl/languages/hebrew.md static/downloads/hebreeuws-braille.xlsx
+```
+
 Hugo itself is installed via the `hugo-extended` npm package — run it through npm scripts or `npx hugo` (no system Hugo needed). `npm run check` prints the Hugo version, `npm run env` the environment.
 
 ## Architecture

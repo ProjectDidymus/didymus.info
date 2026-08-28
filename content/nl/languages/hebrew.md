@@ -36,6 +36,10 @@ De braillelezer leest het Hebreeuws van links naar rechts.
 Als standaard voor Bijbels Hebreeuws braille wordt wereldwijd gebruik gemaakt van de International Hebrew Braille Code ({{< abbr IHBC >}}).
 In de tabellen hieronder wordt een overzicht gegeven van de Hebreeuwse tekens met bijbehorende weergave in braille.
 
+De tabellen zijn ook beschikbaar als Excel-bestand.
+
+{{< button tooltip="Download de tabellen als Excel-bestand" href="/downloads/hebreeuws-braille.xlsx" >}}Download de tabellen als Excel-bestand{{< /button >}}
+
 ### Consonanten
 
 | Karakter | Naam | Unicode Braille | ASCII Braille | Braillepunten |
@@ -93,6 +97,8 @@ In de tabellen hieronder wordt een overzicht gegeven van de Hebreeuwse tekens me
 | ֹ | Cholem | ⠕ | `o` | 135 |
 | ֻ | Kiboets | ⠥ | `u` | 136 |
 
+#### Leesmoeders
+
 > [!NOTE]
 > Wanneer de letters *Wav* en *Jod* fungeren als leesmoeders in plaats van als medeklinkers, worden ze tot één enkele braille-cel samengetrokken.
 
@@ -114,6 +120,8 @@ In de tabellen hieronder wordt een overzicht gegeven van de Hebreeuwse tekens me
 | הּ | Hee met mapiek | ⠓⠘ | `h^` | 125-45 |
 | ־ | Makeef | ⠤ | `-` | 36 |
 | ׀ | Paassek | ⠸ | `_` | 456 |
+
+#### Scheidende accenten
 
 > [!NOTE]
 > De onderstaande drie scheidende accenten worden in braille aan het einde van het woord geplaatst waarin ze voorkomen.
