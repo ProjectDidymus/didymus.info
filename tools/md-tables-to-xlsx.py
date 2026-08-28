@@ -37,6 +37,8 @@ FIXED_TIMESTAMP = datetime(2000, 1, 1)
 ZIP_DATE_TIME = (1980, 1, 1, 0, 0, 0)
 MIN_COLUMN_WIDTH = 12
 MAX_COLUMN_WIDTH = 40
+NOTE_COLUMN_WIDTH = 40
+NOTE_ALIGNMENT = Alignment(wrap_text=True, vertical="top")
 TABLE_STYLE = TableStyleInfo(name="TableStyleMedium2", showRowStripes=True)
 INLINE_MARKUP = [
     (re.compile(r"\{\{<\s*abbr\s+(\S+)\s*>\}\}"), r"\1"),
@@ -231,13 +233,15 @@ def write_section(ws: Worksheet, section: Section, used_names: set[str]) -> list
     widths: dict[int, int] = {}
     row = 1
     title = section.title
+    has_notes = False
     for block in section.blocks:
         if isinstance(block, Heading):
             ws.cell(row, 1, block.text).font = Font(bold=True)
             title = block.text
             row += 2
         elif isinstance(block, Note):
-            set_text(ws.cell(row, 1), block.text)
+            set_text(ws.cell(row, 1), block.text).alignment = NOTE_ALIGNMENT
+            has_notes = True
             row += 2
         else:
             name = table_name(title, used_names)
@@ -245,6 +249,8 @@ def write_section(ws: Worksheet, section: Section, used_names: set[str]) -> list
             written.append(WrittenTable(ws.title, name, len(block.rows)))
     for column, width in widths.items():
         ws.column_dimensions[get_column_letter(column)].width = min(max(width + 2, MIN_COLUMN_WIDTH), MAX_COLUMN_WIDTH)
+    if has_notes:
+        ws.column_dimensions["A"].width = max(ws.column_dimensions["A"].width, NOTE_COLUMN_WIDTH)
     return written
 
 
