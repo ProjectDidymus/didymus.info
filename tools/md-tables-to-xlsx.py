@@ -7,9 +7,9 @@
 Usage: uv run tools/md-tables-to-xlsx.py <content page.md> <output.xlsx>
 
 Every heading (up to level 3) that has tables below it becomes a sheet.
-Each table becomes a named Excel table object; notes, paragraphs and
-deeper headings between the tables are written as plain text rows in
-document order. The first sheet describes the file and links to the page.
+Each table becomes a named Excel table object; notes and deeper headings
+between the tables are written as plain text rows in document order.
+Other page prose is left out.
 """
 
 import re
@@ -38,10 +38,6 @@ ZIP_DATE_TIME = (1980, 1, 1, 0, 0, 0)
 MIN_COLUMN_WIDTH = 12
 MAX_COLUMN_WIDTH = 40
 TABLE_STYLE = TableStyleInfo(name="TableStyleMedium2", showRowStripes=True)
-LABELS = {
-    "nl": {"about": "Over dit bestand", "source": "Bron"},
-    "en": {"about": "About this file", "source": "Source"},
-}
 INLINE_MARKUP = [
     (re.compile(r"\{\{<\s*abbr\s+(\S+)\s*>\}\}"), r"\1"),
     (re.compile(r"\[\^[^\]]+\]"), ""),
@@ -61,11 +57,6 @@ class Heading:
 
 
 @dataclass
-class Paragraph:
-    text: str
-
-
-@dataclass
 class Note:
     text: str
 
@@ -77,7 +68,7 @@ class MdTable:
     rows: list[list[str]]
 
 
-Block = Heading | Paragraph | Note | MdTable
+Block = Heading | Note | MdTable
 
 
 @dataclass
@@ -160,12 +151,9 @@ def parse_blocks(body: str) -> list[Block]:
                 i += 1
             blocks.append(MdTable(header, alignments, rows))
         else:
-            paragraph = [stripped]
             i += 1
             while i < len(lines) and not is_block_start(lines[i]):
-                paragraph.append(lines[i].strip())
                 i += 1
-            blocks.append(Paragraph(plain(" ".join(paragraph))))
     return blocks
 
 
@@ -183,15 +171,6 @@ def sections_with_tables(blocks: list[Block]) -> list[Section]:
 
 def page_language(page: Path) -> str:
     return page.resolve().relative_to(CONTENT_ROOT).parts[0]
-
-
-def page_url(page: Path, site: dict) -> str:
-    lang, *rest = page.resolve().relative_to(CONTENT_ROOT).with_suffix("").parts
-    if rest and rest[-1] == "_index":
-        rest = rest[:-1]
-    in_subdir = lang != site["defaultContentLanguage"] or site.get("defaultContentLanguageInSubdir", False)
-    segments = ([lang] if in_subdir else []) + list(rest)
-    return site["baseURL"].rstrip("/") + "/" + "/".join(segments) + "/"
 
 
 def unique(name: str, used: set[str]) -> str:
@@ -257,7 +236,7 @@ def write_section(ws: Worksheet, section: Section, used_names: set[str]) -> list
             ws.cell(row, 1, block.text).font = Font(bold=True)
             title = block.text
             row += 2
-        elif isinstance(block, (Paragraph, Note)):
+        elif isinstance(block, Note):
             set_text(ws.cell(row, 1), block.text)
             row += 2
         else:
@@ -269,41 +248,28 @@ def write_section(ws: Worksheet, section: Section, used_names: set[str]) -> list
     return written
 
 
-def write_about(ws: Worksheet, front_matter: dict, url: str, labels: dict[str, str]) -> None:
-    ws.cell(1, 1, front_matter["title"]).font = Font(bold=True)
-    ws.cell(2, 1, front_matter.get("description", ""))
-    ws.cell(3, 1, f"{labels['source']}: {url}")
-    ws.column_dimensions["A"].width = MAX_COLUMN_WIDTH
-
-
 def build_workbook(page: Path, site: dict) -> tuple[Workbook, list[WrittenTable]]:
     front_matter, body = split_front_matter(page.read_text(encoding="utf-8"))
-    lang = page_language(page)
-    labels = LABELS.get(lang, LABELS["en"])
     sections = sections_with_tables(parse_blocks(body))
     if not sections:
         raise ValueError(f"{page} contains no markdown tables")
 
     wb = Workbook()
+    wb.remove(wb.active)
     wb.properties.title = front_matter["title"]
     wb.properties.description = front_matter.get("description", "")
     wb.properties.creator = site["title"]
     wb.properties.lastModifiedBy = site["title"]
-    wb.properties.language = lang
+    wb.properties.language = page_language(page)
     wb.properties.created = FIXED_TIMESTAMP
     wb.properties.modified = FIXED_TIMESTAMP
 
     used_sheets: set[str] = set()
     used_tables: set[str] = set()
-    about = wb.active
-    about.title = sheet_title(labels["about"], used_sheets)
-    write_about(about, front_matter, page_url(page, site), labels)
-
     written: list[WrittenTable] = []
     for section in sections:
         ws = wb.create_sheet(sheet_title(section.title, used_sheets))
         written.extend(write_section(ws, section, used_tables))
-    wb.active = 1
     return wb, written
 
 
