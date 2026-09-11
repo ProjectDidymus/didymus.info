@@ -57,7 +57,7 @@ De tabellen zijn ook beschikbaar als Excel-bestand.
 | ח | Chet | ⠭ | `x` | 1346 |
 | ט | Tet | ⠞ | `t` | 2345 |
 | י | Jod | ⠚ | `j` | 245 |
-| כּ / ּךּ | Kaf met dageesj | ⠅ | `k` | 13 |
+| כּ / ךּ | Kaf met dageesj | ⠅ | `k` | 13 |
 | כ / ך | Kaf zonder dageesj | ⠡ | `*` | 16 |
 | ל | Lamed | ⠇ | `l` | 123 |
 | מ / ם | Mem | ⠍ | `m` | 134 |
