@@ -18,9 +18,6 @@ updates:
       interval: "daily"
     versioning-strategy: increase
     groups:
-      commitlint:
-        patterns:
-          - "@commitlint/*"
       eslint:
         patterns:
           - "eslint*"
