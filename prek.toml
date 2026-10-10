@@ -5,12 +5,18 @@
 [[repos]]
 repo = "builtin"
 hooks = [
+  { id = "check-added-large-files", args = ["--maxkb=2048"] },
   { id = "check-case-conflict" },
+  { id = "check-illegal-windows-names" },
   { id = "check-json" },
+  { id = "check-merge-conflict" },
   { id = "check-toml" },
   { id = "check-yaml" },
+  { id = "detect-private-key" },
   { id = "end-of-file-fixer" },
-  { id = "fix-byte-order-marker" }
+  { id = "fix-byte-order-marker" },
+  { id = "mixed-line-ending" },
+  { id = "trailing-whitespace", args = ["--markdown-linebreak-ext=md"] }
 ]
 
 # Local hooks run the project's own npm binaries, so `npm install` must have run.
