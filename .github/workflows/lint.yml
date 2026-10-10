@@ -4,13 +4,13 @@ on:
   push:
     tags:
       - v*
-    branches: 
-      main
-      beta
+    branches:
+      - main
+      - beta
   pull_request:
     branches:
-      main
-      beta
+      - main
+      - beta
 
 env:
   CACHE_KEY: 'hugo-hinode-template'
