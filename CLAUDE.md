@@ -102,8 +102,9 @@ Styling/JS come from Hinode modules. Add project overrides in `assets/js/` and `
 ### CI
 
 `.github/workflows/lint.yml` — runs `npm run lint` on push/PR.
-`.github/workflows/mod-update.yml` — scheduled Hugo module updates.
-`.github/workflows/auto-merge.yml` — auto-approves/merges dependabot patch+minor PRs (majors get a `requires-manual-qa` label). `.github/dependabot.yml` groups the npm updates.
+`.github/workflows/mod-update.yml` — scheduled Hugo module updates; opens/updates the `hugo-mod-dependencies` PR and enables auto-merge on it.
+`.github/workflows/auto-merge.yml` — enables auto-merge on non-major dependabot PRs; majors stay open for a manual merge. `.github/dependabot.yml` groups the npm updates.
+Auto-merge squash-merges once the only required check, the Netlify deploy preview, passes (main ruleset; no approvals required). The PR from `mod-update.yml` is opened with `GITHUB_TOKEN`, so no other workflow (including `lint.yml` and `auto-merge.yml`) runs on it.
 
 Run `npm test` before committing — CI (`lint.yml`) fails PRs on lint errors.
 

@@ -38,6 +38,7 @@ jobs:
         echo 'EOF' >> $GITHUB_OUTPUT
 
     - name: Create Pull Request
+      id: cpr
       uses: gethinode/create-pull-request@v8
       with:
         commit-message: 'fix: update Hugo module dependencies'
@@ -58,3 +59,10 @@ jobs:
           go.mod
           go.sum
         # add **/go.mod **/go.sum if your repository contains any modules in a subfolder
+
+    - name: Enable auto-merge
+      if: steps.cpr.outputs.pull-request-operation == 'created' || steps.cpr.outputs.pull-request-operation == 'updated'
+      run: gh pr merge --auto --squash "$PR_URL"
+      env:
+        PR_URL: ${{ steps.cpr.outputs.pull-request-url }}
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
