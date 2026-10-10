@@ -99,7 +99,7 @@ home = ["HTML", "RSS", "REDIR", "netlify", "server"]
 [module]
   [module.hugoVersion]
     extended = true
-    min = "0.146.0"
+    min = "0.158.0"
   [[module.mounts]]
     source = "archetypes"
     target = "archetypes"

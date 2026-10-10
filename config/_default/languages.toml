@@ -1,5 +1,5 @@
 [nl]
-languageName = "Nederlands"
+label = "Nederlands"
 contentDir = "content/nl"
 weight = 1
 [nl.params.head]
@@ -7,7 +7,7 @@ tagline = "Bijbelwetenschappen en toegankelijkheid"
 [nl.params.footer]
 license = "Gelicenseerd onder <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>Creative Commons (CC BY-NC-SA 4.0)</a> | Uitgerold en gehost door <a href='https://www.netlify.com'>Netlify</a>"
 [en]
-languageName = "English"
+label = "English"
 contentDir = "content/en"
 weight = 2
 [en.params.head]
