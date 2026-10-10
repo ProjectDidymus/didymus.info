@@ -1,0 +1,42 @@
+# Configuration file for `prek`, a git hook framework written in Rust.
+# See https://prek.j178.dev for more information.
+#:schema https://www.schemastore.org/prek.json
+
+[[repos]]
+repo = "builtin"
+hooks = [
+  { id = "check-case-conflict" },
+  { id = "check-json" },
+  { id = "check-toml" },
+  { id = "check-yaml" },
+  { id = "end-of-file-fixer" },
+  { id = "fix-byte-order-marker" }
+]
+
+# Local hooks run the project's own npm binaries, so `npm install` must have run.
+[[repos]]
+repo = "local"
+hooks = [
+  {
+    id = "markdownlint-cli2",
+    name = "markdownlint-cli2",
+    language = "system",
+    entry = "npx --no -- markdownlint-cli2 --fix",
+    types = ["markdown"]
+  },
+  {
+    id = "eslint",
+    name = "eslint",
+    language = "system",
+    entry = "npx --no -- eslint --no-warn-ignored",
+    files = "^assets/js/",
+    types = ["javascript"]
+  },
+  {
+    id = "stylelint",
+    name = "stylelint",
+    language = "system",
+    entry = "npx --no -- stylelint --allow-empty-input",
+    files = "^assets/scss/.*\\.(css|sass|scss|sss|less)$"
+  }
+]
