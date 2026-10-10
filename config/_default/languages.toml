@@ -2,8 +2,6 @@
 languageName = "Nederlands"
 contentDir = "content/nl"
 weight = 1
-[nl.params.opengraph]
-locale = "nl_NL"
 [nl.params.head]
 tagline = "Bijbelwetenschappen en toegankelijkheid"
 [nl.params.footer]
