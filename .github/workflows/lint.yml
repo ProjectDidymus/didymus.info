@@ -34,9 +34,8 @@ jobs:
         cache: 'npm'
         cache-dependency-path: '**/package-lock.json'
 
-    # [24/AUG/23] Adjusted from npm ci to prevent EBADPLATFORM error due to fsevents
     - name: Install npm
-      run: npm i
+      run: npm ci
 
     - name: Lint the source files
       run: npm run lint
