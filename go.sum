@@ -36,6 +36,8 @@ github.com/gethinode/hinode/v3 v3.35.3 h1:U/Y9BqVMEDiFfu2di5ehEOnkwyFjdDajIBvRDc
 github.com/gethinode/hinode/v3 v3.35.3/go.mod h1:oZoRg6VhcCcfTYqxr0R39/kT7aIjPAPa5VFYPYr8ba8=
 github.com/gethinode/hinode/v3 v3.36.2 h1:cTBT0tdcc+xP9lD4IW+CtdaLNI4Lsqvib28EmRUhD7M=
 github.com/gethinode/hinode/v3 v3.36.2/go.mod h1:oZoRg6VhcCcfTYqxr0R39/kT7aIjPAPa5VFYPYr8ba8=
+github.com/gethinode/hinode/v3 v3.37.0 h1:rb5cdsdYmxVYN6gCpE2cOlyGfJgKciKjMfSSXmE5BkU=
+github.com/gethinode/hinode/v3 v3.37.0/go.mod h1:rN+4Iyzvo0ftloRXLeFa03RSUTqk2wAOEvEm/zgexx8=
 github.com/gethinode/mod-blocks/v2 v2.1.4 h1:HV6S8xDQRZ3RaRdpXOPzyULIp53XQZJHWURLGTMBy1Y=
 github.com/gethinode/mod-blocks/v2 v2.1.4/go.mod h1:z+0Rg+I0naJf7VOy9dDuo8FX1dB5bPuMmbWT1QmBFhg=
 github.com/gethinode/mod-blocks/v2 v2.2.5 h1:8glKSX7OENSgbRAp+Bc1JL68Ix3DSWcHWh5dlsNrNsk=
@@ -110,6 +112,8 @@ github.com/gethinode/mod-mermaid/v5 v5.0.4 h1:cw8FE+IDvbMmY0/+pcYfBbg/9gVF/sLvtD
 github.com/gethinode/mod-mermaid/v5 v5.0.4/go.mod h1:/9uNj5hKghuBKRd3qi18J7XwMRxrLKJymn9MCO6vP3I=
 github.com/gethinode/mod-mermaid/v5 v5.1.0 h1:5/M2Rxl+5VXiM63KJQxh+qNkMK3CmJfeEf2/xbh3N7U=
 github.com/gethinode/mod-mermaid/v5 v5.1.0/go.mod h1:xwz4Gyq7/R6YfScHIpzncdeV7SW43jmXO55dbx71twk=
+github.com/gethinode/mod-mermaid/v5 v5.1.1 h1:qjhwfEIljK4uHYRbz53mHJd8ElxaZwlLPeOq2AfyqkM=
+github.com/gethinode/mod-mermaid/v5 v5.1.1/go.mod h1:m08kLAZ2/c2HhMqanGhVZz+GFRx43u6I9HE0GHPvUII=
 github.com/gethinode/mod-simple-datatables/v4 v4.1.0 h1:AtEtLH9RoAEIpElg0k6UkVlHmiBc4Df3NCCUfBtmktU=
 github.com/gethinode/mod-simple-datatables/v4 v4.1.0/go.mod h1:jRHoX20bUiaVg7UtKzMjfHQjd5M6WZ8hAeVqA3TKwTA=
 github.com/gethinode/mod-simple-datatables/v4 v4.1.1 h1:Bidf8FA9SxBBb163D0yteTyad/sNiVK31IdqbcF/tZs=
