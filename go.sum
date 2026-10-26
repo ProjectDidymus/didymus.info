@@ -44,6 +44,8 @@ github.com/gethinode/hinode/v3 v3.40.1 h1:W1+kJRawA+03Y2vbcR6sGNx+00NkZTFxTO9Q/X
 github.com/gethinode/hinode/v3 v3.40.1/go.mod h1:Od/RGLvNbyWS56eJwB5NL/jBkzxN7D62O8/zoKnSSKY=
 github.com/gethinode/hinode/v3 v3.42.1 h1:4smK/VeMpJLGUPrflFEZW5J3YEis1UGY1q8pRkifL18=
 github.com/gethinode/hinode/v3 v3.42.1/go.mod h1:G+DnKeT2Amk6cDbY75j6mIllUWZD5wKY7YXXsNuL34U=
+github.com/gethinode/hinode/v3 v3.44.0 h1:0j3qgIOhw/6v6aXO2+2tcloKP7inAZ28s4tA0yEgm/I=
+github.com/gethinode/hinode/v3 v3.44.0/go.mod h1:xO2RZ+VyPe7o0Jhh4heqx3gKi4sSdlmwtdqTZtGqu+o=
 github.com/gethinode/mod-blocks/v2 v2.1.4 h1:HV6S8xDQRZ3RaRdpXOPzyULIp53XQZJHWURLGTMBy1Y=
 github.com/gethinode/mod-blocks/v2 v2.1.4/go.mod h1:z+0Rg+I0naJf7VOy9dDuo8FX1dB5bPuMmbWT1QmBFhg=
 github.com/gethinode/mod-blocks/v2 v2.2.5 h1:8glKSX7OENSgbRAp+Bc1JL68Ix3DSWcHWh5dlsNrNsk=
@@ -176,6 +178,8 @@ github.com/gethinode/mod-utils/v6 v6.16.0 h1:62BKOlrAlyXsICd1e2xX/N3p8p54MXnlshW
 github.com/gethinode/mod-utils/v6 v6.16.0/go.mod h1:E5tO9w3VKaidJpu1nI8zAKmh0bddFHOIIQnudAaXQTs=
 github.com/gethinode/mod-utils/v6 v6.17.0 h1:KDbDzUfa01708PMwuFBaP4EWsaHW3OTm7xwfw+H2Zac=
 github.com/gethinode/mod-utils/v6 v6.17.0/go.mod h1:E5tO9w3VKaidJpu1nI8zAKmh0bddFHOIIQnudAaXQTs=
+github.com/gethinode/mod-utils/v6 v6.18.0 h1:GMkAU6u6u88HyZfWqAsbfOMeJ11zxO6hQHeMp1PnUZU=
+github.com/gethinode/mod-utils/v6 v6.18.0/go.mod h1:E5tO9w3VKaidJpu1nI8zAKmh0bddFHOIIQnudAaXQTs=
 github.com/nextapps-de/flexsearch v0.0.0-20260529083235-f7ed963096a0 h1:QDKcU3q39lFGzdVwM6kgCGnW3ibbMfYIi0Rwl62iJpo=
 github.com/nextapps-de/flexsearch v0.0.0-20260529083235-f7ed963096a0/go.mod h1:5GdMfPAXzbA2gXBqTjC6l27kioSYzHlqDMh0+wyx7sU=
 github.com/twbs/bootstrap v5.3.8+incompatible h1:eK1fsXP7R/FWFt+sSNmmvUH9usPocf240nWVw7Dh02o=
