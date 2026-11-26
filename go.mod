@@ -6,8 +6,8 @@ require (
 	github.com/FortAwesome/Font-Awesome v0.0.0-20260715180930-14c65a3747d0 // indirect
 	github.com/airbnb/lottie-web v5.13.0+incompatible // indirect
 	github.com/cloudcannon/bookshop/hugo/v3 v3.20.0 // indirect
-	github.com/gethinode/hinode/v3 v3.54.7 // indirect
-	github.com/gethinode/mod-blocks/v2 v2.17.3 // indirect
+	github.com/gethinode/hinode/v3 v3.54.9 // indirect
+	github.com/gethinode/mod-blocks/v2 v2.17.5 // indirect
 	github.com/gethinode/mod-bootstrap v1.5.2 // indirect
 	github.com/gethinode/mod-csp v1.0.18 // indirect
 	github.com/gethinode/mod-flexsearch/v5 v5.4.3 // indirect
